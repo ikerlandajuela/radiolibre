@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Presentaci\u00f3n\n\n\nBienvenido a la Web creada para el taller que vamos a impartir sobre como montar una radio libre con \nLibretime\n y otras aplicaciones.\n\n\nNuestra intenci\u00f3n es ir creando todo el material y manuales necesarios para cuando llegue el d\u00eda del taller todos los recursos esten preparados y libremente disponibles para los asistentes o quien quiera.\n\n\nObjetivo del taller\n\n\nDatos taller\n\n\n\n\nFecha prosional\n: \n27 y 28 de Enero\n, el taller consta de dos sesiones. A\u00fan no sabemos si ser\u00e1n los dos d\u00edas de ma\u00f1ana o uno de tarde y otro de ma\u00f1ana.\n\n\nLugar\n: Kultur Etxea de Bilbao La Vieja (C/ Urazurrutia 7), Bilbao (\nver mapa\n).\n\n\nOrganizadores\n: Kultur Etxea, 97 Irratia.\n\n\n\n\nContacto\n\n\n\n\nCorreo electr\u00f3nico: ikastaroak.kulturetxea@gmail.com.\n\n\n\n\nInscripci\u00f3n\n\n\nNormalmente trabajamos con grupos peque\u00f1os de no m\u00e1s de 8 o 10 personas. Para que nadie que realmente quiera acudir al taller no se quede sin plaza pedimos que os registreis en el formulario del siguiente \nenlace\n. Despues de inscribirte debe esperar a recibir la confirmaci\u00f3n de plaza v\u00eda correo electr\u00f3nico.\n\n\nSi por cualquier motivo a pesar de haberte inscrito ves que no puedes asistir por favor escribe un correo electr\u00f3nico a ikastaroak.kulturetxea@gmail.com.\n\n\nListado material\n\n\nAccede aqu\u00ed para ver un listado detallado del \nmaterial\n \n\n\nOtros recursos\n\n\nEsta web est\u00e1 creada con MkDocs y subida a GitHub.", 
+            "text": "Contenidos:\n\n\n\n\nPresentaci\u00f3n\n\n\nFecha y lugar\n\n\nInscribete al taller\n\n\n\n\nPresentaci\u00f3n\n\n\nBienvenido a la Web creada para el taller que vamos a impartir sobre como montar una radio libre con \nLibretime\n y otras aplicaciones.\n\n\nNuestra intenci\u00f3n es ir creando todo el material y manuales necesarios para cuando llegue el d\u00eda del taller todos los recursos esten preparados y libremente disponibles para los asistentes o quien quiera.\n\n\nFecha y lugar\n\n\n\n\nFecha prosional\n: \n27 y 28 de Enero\n, el taller consta de dos sesiones. A\u00fan no sabemos si ser\u00e1n los dos d\u00edas de ma\u00f1ana o uno de tarde y otro de ma\u00f1ana.\n\n\nLugar\n: Kultur Etxea de Bilbao La Vieja (C/ Urazurrutia 7), Bilbao (\nver mapa\n).\n\n\nOrganizadores\n: Kultur Etxea, 97 Irratia.\n\n\nCorreo electr\u00f3nico de contacto: ikastaroak.kulturetxea@gmail.com.\n\n\n\n\nInscribete al taller\n\n\nNormalmente trabajamos con grupos peque\u00f1os de no m\u00e1s de 8 o 10 personas. Para que nadie que realmente quiera acudir al taller se quede sin plaza pedimos que os registreis en el formulario del siguiente \nenlace\n. Despues de inscribirte debe esperar a recibir la confirmaci\u00f3n de plaza v\u00eda correo electr\u00f3nico.\n\n\nSi por cualquier motivo a pesar de haberte inscrito ves que no puedes asistir por favor escribe un correo electr\u00f3nico a ikastaroak.kulturetxea@gmail.com.\n\n\nOtros recursos\n\n\nEsta web est\u00e1 creada con MkDocs y subida a GitHub.", 
             "title": "Home"
         }, 
         {
@@ -11,29 +11,14 @@
             "title": "Presentaci\u00f3n"
         }, 
         {
-            "location": "/#objetivo-del-taller", 
-            "text": "", 
-            "title": "Objetivo del taller"
+            "location": "/#fecha-y-lugar", 
+            "text": "Fecha prosional :  27 y 28 de Enero , el taller consta de dos sesiones. A\u00fan no sabemos si ser\u00e1n los dos d\u00edas de ma\u00f1ana o uno de tarde y otro de ma\u00f1ana.  Lugar : Kultur Etxea de Bilbao La Vieja (C/ Urazurrutia 7), Bilbao ( ver mapa ).  Organizadores : Kultur Etxea, 97 Irratia.  Correo electr\u00f3nico de contacto: ikastaroak.kulturetxea@gmail.com.", 
+            "title": "Fecha y lugar"
         }, 
         {
-            "location": "/#datos-taller", 
-            "text": "Fecha prosional :  27 y 28 de Enero , el taller consta de dos sesiones. A\u00fan no sabemos si ser\u00e1n los dos d\u00edas de ma\u00f1ana o uno de tarde y otro de ma\u00f1ana.  Lugar : Kultur Etxea de Bilbao La Vieja (C/ Urazurrutia 7), Bilbao ( ver mapa ).  Organizadores : Kultur Etxea, 97 Irratia.", 
-            "title": "Datos taller"
-        }, 
-        {
-            "location": "/#contacto", 
-            "text": "Correo electr\u00f3nico: ikastaroak.kulturetxea@gmail.com.", 
-            "title": "Contacto"
-        }, 
-        {
-            "location": "/#inscripcion", 
-            "text": "Normalmente trabajamos con grupos peque\u00f1os de no m\u00e1s de 8 o 10 personas. Para que nadie que realmente quiera acudir al taller no se quede sin plaza pedimos que os registreis en el formulario del siguiente  enlace . Despues de inscribirte debe esperar a recibir la confirmaci\u00f3n de plaza v\u00eda correo electr\u00f3nico.  Si por cualquier motivo a pesar de haberte inscrito ves que no puedes asistir por favor escribe un correo electr\u00f3nico a ikastaroak.kulturetxea@gmail.com.", 
-            "title": "Inscripci\u00f3n"
-        }, 
-        {
-            "location": "/#listado-material", 
-            "text": "Accede aqu\u00ed para ver un listado detallado del  material", 
-            "title": "Listado material"
+            "location": "/#inscribete-al-taller", 
+            "text": "Normalmente trabajamos con grupos peque\u00f1os de no m\u00e1s de 8 o 10 personas. Para que nadie que realmente quiera acudir al taller se quede sin plaza pedimos que os registreis en el formulario del siguiente  enlace . Despues de inscribirte debe esperar a recibir la confirmaci\u00f3n de plaza v\u00eda correo electr\u00f3nico.  Si por cualquier motivo a pesar de haberte inscrito ves que no puedes asistir por favor escribe un correo electr\u00f3nico a ikastaroak.kulturetxea@gmail.com.", 
+            "title": "Inscribete al taller"
         }, 
         {
             "location": "/#otros-recursos", 
