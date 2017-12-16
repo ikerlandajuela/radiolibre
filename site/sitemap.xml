@@ -11,18 +11,20 @@
 
     
     <url>
-     <loc>/manuales/</loc>
+     <loc>/material/</loc>
      <lastmod>2017-12-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
     <url>
-     <loc>/material/</loc>
+     <loc>/man/libretime_y_virtualbox/</loc>
      <lastmod>2017-12-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     
 
 </urlset>
