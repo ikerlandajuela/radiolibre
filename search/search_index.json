@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Presentaci\u00f3n\n\n\nBienvenido a la Web creada para el taller que vamos a impartir sobre como montar una radio libre con \nLibretime\n y otras aplicaciones.\n\n\nNuestra intenci\u00f3n es ir creando todo el material y manuales necesarios para cuando llegue el d\u00eda del taller todos los recursos esten preparados y libremente disponibles para los asistentes o quien quiera.\n\n\nDatos taller\n\n\n\n\nFecha preliminar: 27 y 28 de Enero, el taller consta de dos sesiones. A\u00fan no sabemos si ser\u00e1n los dos d\u00edas de ma\u00f1ana o uno de tarde y otro de ma\u00f1ana.\n\n\n\n\nContacto\n\n\n\n\nCorreo electr\u00f3nico: ikastaroak.kulturetxea@gmail.com\n\n\n\n\nListado material\n\n\nOtros recursos", 
+            "text": "Presentaci\u00f3n\n\n\nBienvenido a la Web creada para el taller que vamos a impartir sobre como montar una radio libre con \nLibretime\n y otras aplicaciones.\n\n\nNuestra intenci\u00f3n es ir creando todo el material y manuales necesarios para cuando llegue el d\u00eda del taller todos los recursos esten preparados y libremente disponibles para los asistentes o quien quiera.\n\n\nDatos taller\n\n\n\n\nFecha preliminar: 27 y 28 de Enero, el taller consta de dos sesiones. A\u00fan no sabemos si ser\u00e1n los dos d\u00edas de ma\u00f1ana o uno de tarde y otro de ma\u00f1ana.\n\n\n\n\nContacto\n\n\n\n\nCorreo electr\u00f3nico: ikastaroak.kulturetxea@gmail.com\n\n\n\n\nListado material\n\n\nTodo el material y equipos inform\u00e1ticos los pondremos nosotros a disposici\u00f3n del taller, ordenadores de sobremesa, microfonos y el resto de elementos necesarios. \n\n\nOtros recursos", 
             "title": "Home"
         }, 
         {
@@ -22,7 +22,7 @@
         }, 
         {
             "location": "/#listado-material", 
-            "text": "", 
+            "text": "Todo el material y equipos inform\u00e1ticos los pondremos nosotros a disposici\u00f3n del taller, ordenadores de sobremesa, microfonos y el resto de elementos necesarios.", 
             "title": "Listado material"
         }, 
         {
@@ -33,7 +33,7 @@
         {
             "location": "/material/", 
             "text": "Carmine et ingens flectit heu poma me\n\n\nIpse lentas plenaque securaque ne saepe referre\n\n\nLorem markdownum caveo; unda fecit tangor \nfortes\n, est ad arva. Annos iamque\nreferitur fuit; qua vidit parente. Male Sabinae ad favete et crepitantibus\neburno credideris ventus precibus infelix. At sed sibi erat in Phegeius arbore\nnutrix sua cerae mea: nisi aderam Philomela mensis et atque se tenax!\n\n\nterminalFile.vga_raw = 4;\nremote_data_teraflops.certificateFooter(mac(emulation));\nif (file_sector(15) / aiff_safe_copy(-2, 1, hddFlashReader)) {\n    configuration += mpegManetLeft(1);\n}\n\n\n\nTaedia\n non nomina \ncorpore duplex laticemque\n\nsub lapillos parta quod. Procul at quod: et hic relatu refert retinacula\nportabat. Saepe Latona nullo ne tenens mirae laniabat oraque coniunctaque esse,\ncredere ego! Flumine lapidis pulcherrime sermone inritata abeunt; annorum heros\nisdem in \nconcutit\n in?\n\n\n\n\nExstinctaque Maera mandata\n\n\nMutanda molles naides invidiosa et paratis mutaverat\n\n\nTempora cum atque\n\n\nEst naribus fieri non in sit uterum\n\n\nArtibus haerent\n\n\n\n\nMe visa\n\n\nExcessisse ibat quoniam solvunt interdum ad inscripsere urebant ne tempore\naequora quacumque edentem aurea tum. Aera naturaque, ab dare alimenta invocat\nsic \nnati\n elige notam isto parte ense protinus cadebant ad Nereides,\ninexorabile. Nomen iubent, truncum caput. Domus oblivia At formam suam, nate\nsua.\n\n\n\n\nSolebant ora marmoreamque redemit quam\n\n\nHuic virtutis venae\n\n\nDetrahit nec dent a sed ait conpescuit\n\n\nInquinat tuis senesque\n\n\nIlle sine obiectat\n\n\n\n\nRabies anguigenae ferunt. Haec illos \nripas\n si\nmorte esse albas, \nadit Atrides quae\n est. In difficile aure puteisque utque.\nFacinus mea Mycenae morte; tum quoque, nec erile.\n\n\n\n\nLoquentis in quem oblivia misi relinquitur anno taloque. Laetior radiante, ad\npoteram bellicus, paludem nec pugnare, per sidera.\n\n\n\n\nConvicia sub pater ego posito Chione et utrimque luctatusque nocent, copia\ntendentem. Formamque nostro accedere gratulor summa quae, petunt cladibus limite\net minae habitabat nec \nin\n ipse voce! Auras celat tu saucia viridique quem\nreposcunt orbus imagine, saepe ad \nne celat\n,\nnon precibusque.", 
-            "title": "About"
+            "title": "Material"
         }, 
         {
             "location": "/material/#carmine-et-ingens-flectit-heu-poma-me", 
@@ -47,6 +47,26 @@
         }, 
         {
             "location": "/material/#me-visa", 
+            "text": "Excessisse ibat quoniam solvunt interdum ad inscripsere urebant ne tempore\naequora quacumque edentem aurea tum. Aera naturaque, ab dare alimenta invocat\nsic  nati  elige notam isto parte ense protinus cadebant ad Nereides,\ninexorabile. Nomen iubent, truncum caput. Domus oblivia At formam suam, nate\nsua.   Solebant ora marmoreamque redemit quam  Huic virtutis venae  Detrahit nec dent a sed ait conpescuit  Inquinat tuis senesque  Ille sine obiectat   Rabies anguigenae ferunt. Haec illos  ripas  si\nmorte esse albas,  adit Atrides quae  est. In difficile aure puteisque utque.\nFacinus mea Mycenae morte; tum quoque, nec erile.   Loquentis in quem oblivia misi relinquitur anno taloque. Laetior radiante, ad\npoteram bellicus, paludem nec pugnare, per sidera.   Convicia sub pater ego posito Chione et utrimque luctatusque nocent, copia\ntendentem. Formamque nostro accedere gratulor summa quae, petunt cladibus limite\net minae habitabat nec  in  ipse voce! Auras celat tu saucia viridique quem\nreposcunt orbus imagine, saepe ad  ne celat ,\nnon precibusque.", 
+            "title": "Me visa"
+        }, 
+        {
+            "location": "/manuales/", 
+            "text": "Manuales\n\n\nIpse lentas plenaque securaque ne saepe referre\n\n\nLorem markdownum caveo; unda fecit tangor \nfortes\n, est ad arva. Annos iamque\nreferitur fuit; qua vidit parente. Male Sabinae ad favete et crepitantibus\neburno credideris ventus precibus infelix. At sed sibi erat in Phegeius arbore\nnutrix sua cerae mea: nisi aderam Philomela mensis et atque se tenax!\n\n\nterminalFile.vga_raw = 4;\nremote_data_teraflops.certificateFooter(mac(emulation));\nif (file_sector(15) / aiff_safe_copy(-2, 1, hddFlashReader)) {\n    configuration += mpegManetLeft(1);\n}\n\n\n\nTaedia\n non nomina \ncorpore duplex laticemque\n\nsub lapillos parta quod. Procul at quod: et hic relatu refert retinacula\nportabat. Saepe Latona nullo ne tenens mirae laniabat oraque coniunctaque esse,\ncredere ego! Flumine lapidis pulcherrime sermone inritata abeunt; annorum heros\nisdem in \nconcutit\n in?\n\n\n\n\nExstinctaque Maera mandata\n\n\nMutanda molles naides invidiosa et paratis mutaverat\n\n\nTempora cum atque\n\n\nEst naribus fieri non in sit uterum\n\n\nArtibus haerent\n\n\n\n\nMe visa\n\n\nExcessisse ibat quoniam solvunt interdum ad inscripsere urebant ne tempore\naequora quacumque edentem aurea tum. Aera naturaque, ab dare alimenta invocat\nsic \nnati\n elige notam isto parte ense protinus cadebant ad Nereides,\ninexorabile. Nomen iubent, truncum caput. Domus oblivia At formam suam, nate\nsua.\n\n\n\n\nSolebant ora marmoreamque redemit quam\n\n\nHuic virtutis venae\n\n\nDetrahit nec dent a sed ait conpescuit\n\n\nInquinat tuis senesque\n\n\nIlle sine obiectat\n\n\n\n\nRabies anguigenae ferunt. Haec illos \nripas\n si\nmorte esse albas, \nadit Atrides quae\n est. In difficile aure puteisque utque.\nFacinus mea Mycenae morte; tum quoque, nec erile.\n\n\n\n\nLoquentis in quem oblivia misi relinquitur anno taloque. Laetior radiante, ad\npoteram bellicus, paludem nec pugnare, per sidera.\n\n\n\n\nConvicia sub pater ego posito Chione et utrimque luctatusque nocent, copia\ntendentem. Formamque nostro accedere gratulor summa quae, petunt cladibus limite\net minae habitabat nec \nin\n ipse voce! Auras celat tu saucia viridique quem\nreposcunt orbus imagine, saepe ad \nne celat\n,\nnon precibusque.", 
+            "title": "Manuales"
+        }, 
+        {
+            "location": "/manuales/#manuales", 
+            "text": "", 
+            "title": "Manuales"
+        }, 
+        {
+            "location": "/manuales/#ipse-lentas-plenaque-securaque-ne-saepe-referre", 
+            "text": "Lorem markdownum caveo; unda fecit tangor  fortes , est ad arva. Annos iamque\nreferitur fuit; qua vidit parente. Male Sabinae ad favete et crepitantibus\neburno credideris ventus precibus infelix. At sed sibi erat in Phegeius arbore\nnutrix sua cerae mea: nisi aderam Philomela mensis et atque se tenax!  terminalFile.vga_raw = 4;\nremote_data_teraflops.certificateFooter(mac(emulation));\nif (file_sector(15) / aiff_safe_copy(-2, 1, hddFlashReader)) {\n    configuration += mpegManetLeft(1);\n}  Taedia  non nomina  corpore duplex laticemque \nsub lapillos parta quod. Procul at quod: et hic relatu refert retinacula\nportabat. Saepe Latona nullo ne tenens mirae laniabat oraque coniunctaque esse,\ncredere ego! Flumine lapidis pulcherrime sermone inritata abeunt; annorum heros\nisdem in  concutit  in?   Exstinctaque Maera mandata  Mutanda molles naides invidiosa et paratis mutaverat  Tempora cum atque  Est naribus fieri non in sit uterum  Artibus haerent", 
+            "title": "Ipse lentas plenaque securaque ne saepe referre"
+        }, 
+        {
+            "location": "/manuales/#me-visa", 
             "text": "Excessisse ibat quoniam solvunt interdum ad inscripsere urebant ne tempore\naequora quacumque edentem aurea tum. Aera naturaque, ab dare alimenta invocat\nsic  nati  elige notam isto parte ense protinus cadebant ad Nereides,\ninexorabile. Nomen iubent, truncum caput. Domus oblivia At formam suam, nate\nsua.   Solebant ora marmoreamque redemit quam  Huic virtutis venae  Detrahit nec dent a sed ait conpescuit  Inquinat tuis senesque  Ille sine obiectat   Rabies anguigenae ferunt. Haec illos  ripas  si\nmorte esse albas,  adit Atrides quae  est. In difficile aure puteisque utque.\nFacinus mea Mycenae morte; tum quoque, nec erile.   Loquentis in quem oblivia misi relinquitur anno taloque. Laetior radiante, ad\npoteram bellicus, paludem nec pugnare, per sidera.   Convicia sub pater ego posito Chione et utrimque luctatusque nocent, copia\ntendentem. Formamque nostro accedere gratulor summa quae, petunt cladibus limite\net minae habitabat nec  in  ipse voce! Auras celat tu saucia viridique quem\nreposcunt orbus imagine, saepe ad  ne celat ,\nnon precibusque.", 
             "title": "Me visa"
         }
