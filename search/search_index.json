@@ -42,7 +42,7 @@
         }, 
         {
             "location": "/man/libretime_y_virtualbox/", 
-            "text": "Como crear una maquina virtual Linux con LibreTime\n\n\nAplicaciones necesarias\n\n\nPara crear la maquina virtual en un equipo con Windows 7 usaremos la aplicaci\u00f3n \nVirtualBox\n, as\u00ed que lo primero es bajar la aplicaci\u00f3n e instalarla.", 
+            "text": "Como crear una maquina virtual Linux con LibreTime\n\n\nAplicaciones necesarias\n\n\nPara crear la maquina virtual en un equipo con Windows 7 usaremos la aplicaci\u00f3n \nVirtualBox\n, as\u00ed que lo primero es bajar la aplicaci\u00f3n e instalarla.\n\n\nDespues para ahorrar tiempo bajaremos una imagen de Ubuntu Server preparada para VirtualBox. En este \nenlace\n se pueden descargar diferentes versiones.\n\n\nYo voy a probar suerte con esta:\nUbuntu Linux Server Edition 12.10 x86\nSize (compressed/uncompressed): 209 MB/1.2 GB\nLink: http://sourceforge.net/projects/virtualboximage/files/UbuntuServer/12.10/ubuntu-12.10-server-i386.7z\nActive user account(s) (username/password): ubuntu/reverse", 
             "title": "LibreTime y VirtualBox"
         }, 
         {
@@ -52,7 +52,7 @@
         }, 
         {
             "location": "/man/libretime_y_virtualbox/#aplicaciones-necesarias", 
-            "text": "Para crear la maquina virtual en un equipo con Windows 7 usaremos la aplicaci\u00f3n  VirtualBox , as\u00ed que lo primero es bajar la aplicaci\u00f3n e instalarla.", 
+            "text": "Para crear la maquina virtual en un equipo con Windows 7 usaremos la aplicaci\u00f3n  VirtualBox , as\u00ed que lo primero es bajar la aplicaci\u00f3n e instalarla.  Despues para ahorrar tiempo bajaremos una imagen de Ubuntu Server preparada para VirtualBox. En este  enlace  se pueden descargar diferentes versiones.  Yo voy a probar suerte con esta:\nUbuntu Linux Server Edition 12.10 x86\nSize (compressed/uncompressed): 209 MB/1.2 GB\nLink: http://sourceforge.net/projects/virtualboximage/files/UbuntuServer/12.10/ubuntu-12.10-server-i386.7z\nActive user account(s) (username/password): ubuntu/reverse", 
             "title": "Aplicaciones necesarias"
         }
     ]
