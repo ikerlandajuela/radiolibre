@@ -1,5 +1,6 @@
 site_name: Taller radio libre
 pages:
-    - Home: index.md
-    - About: about.md
+    - Home: index.md    
+    - Material: material.md
+    - Manuales: manuales.md	
 theme: readthedocs

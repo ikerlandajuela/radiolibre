@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+# Presentación
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+Bienvenido a la Web creada para el taller que vamos a impartir sobre como montar una radio libre con [Libretime](https://github.com/LibreTime) y otras aplicaciones.
 
-## Commands
+Nuestra intención es ir creando todo el material y manuales necesarios para cuando llegue el día del taller todos los recursos esten preparados y libremente disponibles para los asistentes o quien quiera.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+## Datos taller
 
-## Project layout
+* Fecha preliminar: 27 y 28 de Enero, el taller consta de dos sesiones. Aún no sabemos si serán los dos días de mañana o uno de tarde y otro de mañana.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Contacto
+
+* Correo electrónico: ikastaroak.kulturetxea@gmail.com
+
+## Listado material
+
+Todo el material y equipos informáticos los pondremos nosotros a disposición del taller, ordenadores de sobremesa, microfonos y el resto de elementos necesarios. 
+
+## Otros recursos
