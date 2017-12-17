@@ -76,13 +76,13 @@
     <a class="current" href="./">LibreTime y VirtualBox</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#como-crear-una-maquina-virtual-linux-con-libretime">Como crear una maquina virtual Linux con LibreTime</a></li>
+    <li class="toctree-l3"><a href="#creando-la-maquina-virtual">Creando la máquina virtual</a></li>
     
-        <ul>
-        
-            <li><a class="toctree-l4" href="#aplicaciones-necesarias">Aplicaciones necesarias</a></li>
-        
-        </ul>
+
+    <li class="toctree-l3"><a href="#instalacion-libretime">Instalación Libretime</a></li>
+    
+
+    <li class="toctree-l3"><a href="#conclusiones">Conclusiones</a></li>
     
 
     </ul>
@@ -129,15 +129,42 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="como-crear-una-maquina-virtual-linux-con-libretime">Como crear una maquina virtual Linux con LibreTime</h1>
-<h2 id="aplicaciones-necesarias">Aplicaciones necesarias</h2>
-<p>Para crear la maquina virtual en un equipo con Windows 7 usaremos la aplicación <a href="https://www.virtualbox.org/">VirtualBox</a>, así que lo primero es bajar la aplicación e instalarla.</p>
-<p>Despues para ahorrar tiempo bajaremos una imagen de Ubuntu Server preparada para VirtualBox. En este <a href="https://virtualboxes.org/images/ubuntu-server/">enlace</a> se pueden descargar diferentes versiones.</p>
-<p>Yo voy a probar suerte con esta:
-Ubuntu Linux Server Edition 12.10 x86
-Size (compressed/uncompressed): 209 MB/1.2 GB
-Link: http://sourceforge.net/projects/virtualboximage/files/UbuntuServer/12.10/ubuntu-12.10-server-i386.7z
-Active user account(s) (username/password): ubuntu/reverse</p>
+                <h1 id="creando-la-maquina-virtual">Creando la máquina virtual</h1>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" width="200" height="200" /></p>
+<p>Para crear la máquina virtual en un equipo con Windows 7 usaremos la aplicación <a href="https://www.virtualbox.org/">VirtualBox</a>, así que lo primero es bajar la aplicación e instalarla (yo tengo instalada la Versión 5.1.10 r112026 (Qt5.6.2)).</p>
+<p>Despues para ahorrar tiempo bajaremos una imagen de Ubuntu reparada para VirtualBox. En estos enlaces se pueden descargar diferentes versiones.</p>
+<ul>
+<li><a href="http://www.osboxes.org/ubuntu/">http://www.osboxes.org/ubuntu/</a></li>
+<li><a href="https://virtualboxes.org/images/ubuntu-server/">https://virtualboxes.org/images/ubuntu-server/</a></li>
+</ul>
+<p>Yo voy a probar suerte con esta:  <a href="https://drive.google.com/file/d/0B_HAFnYs6Ur-ZFBGM3gwd0pEMms/view?usp=sharing">Ubuntu_17.10-VB-64bit.7z (964M)</a></p>
+<ul>
+<li>Username: osboxes</li>
+<li>Password: osboxes.org</li>
+</ul>
+<p><img alt="" src="../../img/libretime_y_virtualbox/01.png" /></p>
+<p>La máquina ha arrancado a la perfección. Una vez arrancada he instalado el cliente Git y Vagrant con:</p>
+<pre><code>$ sudo apt-get install git
+$ sudo apt-get install virtualbox
+$ sudo apt-get install vagrant
+</code></pre>
+
+<p><a href="https://www.vagrantup.com/">Vagrant</a> es es una herramienta para la creación y configuración de entornos de desarrollo virtualizados. </p>
+<h1 id="instalacion-libretime">Instalación Libretime</h1>
+<p>A continuación clonamos el repositorio de Libretime y lanzamos el entorno virtualizado con Vagrant:</p>
+<pre><code>$ git clone https://github.com/libretime/libretime.git
+$ cd libretime
+$ vagrant up-trusty
+</code></pre>
+
+<p>En ni caso la primera vez no ha funcionado porque faltaba por instalar <a href="https://help.ubuntu.com/community/SettingUpNFSHowTo">NFS</a></p>
+<pre><code>$ apt-get install nfs-kernel-server
+$ apt-get install nfs-common
+</code></pre>
+
+<p>Vagrant descarga una caja (los entornos virtualizados los llaman boxes) </p>
+<h1 id="conclusiones">Conclusiones</h1>
+<p>Podiamos haber lanzado la maquina virtual instalando Vagrant directamente sobre Windows 7 y clonando con Git el repositorio.</p>
               
             </div>
           </div>

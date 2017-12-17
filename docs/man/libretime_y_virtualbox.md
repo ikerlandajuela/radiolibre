@@ -11,6 +11,9 @@ Despues para ahorrar tiempo bajaremos una imagen de Ubuntu reparada para Virtual
 
 Yo voy a probar suerte con esta:  [Ubuntu_17.10-VB-64bit.7z (964M)](https://drive.google.com/file/d/0B_HAFnYs6Ur-ZFBGM3gwd0pEMms/view?usp=sharing)
 
+Esta distribución es una de las que recomiendan en el propio manual de [LibreTime](http://libretime.org/manual/preparing-the-server/)
+[Ubuntu_16.04.3-VB-32bit.7z (1.0G)](https://drive.google.com/file/d/0B_HAFnYs6Ur-N0d2MGMxWGI5Uzg/view?usp=sharing)
+
 * Username: osboxes
 * Password: osboxes.org
 
