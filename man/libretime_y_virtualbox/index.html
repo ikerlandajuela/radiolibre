@@ -82,12 +82,6 @@
     <li class="toctree-l3"><a href="#debian">Debian</a></li>
     
 
-    <li class="toctree-l3"><a href="#obsoleto-ubuntu">Obsoleto (Ubuntu)</a></li>
-    
-
-    <li class="toctree-l3"><a href="#instalacion-libretime">Instalación Libretime</a></li>
-    
-
     </ul>
                 </li>
     </ul>
@@ -178,27 +172,6 @@ deb-src  http://deb.debian.org/debian  stretch main
 <p><img alt="" src="../../img/libretime_y_virtualbox/04.png" /></p>
 <p>Con algunos errores pero se ha instalado y se puede abrir en <a href="http://localhost">http://localhost</a>.</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/05.png" /></p>
-<h1 id="obsoleto-ubuntu">Obsoleto (Ubuntu)</h1>
-<p>La máquina ha arrancado a la perfección. Una vez arrancada he instalado el cliente Git y Vagrant con:</p>
-<pre><code>$ sudo apt-get install git
-$ sudo apt-get install virtualbox
-$ sudo apt-get install vagrant
-</code></pre>
-
-<p><a href="https://www.vagrantup.com/">Vagrant</a> es es una herramienta para la creación y configuración de entornos de desarrollo virtualizados. </p>
-<h1 id="instalacion-libretime">Instalación Libretime</h1>
-<p>A continuación clonamos el repositorio de Libretime y lanzamos el entorno virtualizado con Vagrant:</p>
-<pre><code>$ git clone https://github.com/libretime/libretime.git
-$ cd libretime
-$ vagrant up-trusty
-</code></pre>
-
-<p>En ni caso la primera vez no ha funcionado porque faltaba por instalar <a href="https://help.ubuntu.com/community/SettingUpNFSHowTo">NFS</a></p>
-<pre><code>$ apt-get install nfs-kernel-server
-$ apt-get install nfs-common
-</code></pre>
-
-<p>Vagrant descarga una caja (los entornos virtualizados los llaman boxes) </p>
               
             </div>
           </div>
