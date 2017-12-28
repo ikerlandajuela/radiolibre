@@ -76,10 +76,10 @@
     <a class="current" href="./">LibreTime y VirtualBox</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#creando-la-maquina-virtual">Creando la máquina virtual</a></li>
+    <li class="toctree-l3"><a href="#maquina-virtual">Máquina virtual</a></li>
     
 
-    <li class="toctree-l3"><a href="#debian">Debian</a></li>
+    <li class="toctree-l3"><a href="#instalar-libretime">Instalar LibreTime</a></li>
     
 
     </ul>
@@ -126,7 +126,7 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="creando-la-maquina-virtual">Creando la máquina virtual</h1>
+                <h1 id="maquina-virtual">Máquina virtual</h1>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" width="200" height="200" /></p>
 <p>Para crear la máquina virtual en un equipo con Windows 7 usaremos la aplicación <a href="https://www.virtualbox.org/"><strong>VirtualBox</strong></a>, así que lo primero es bajar la aplicación e instalarla (yo tengo instalada la Versión 5.1.10 r112026 (Qt5.6.2)).</p>
 <p>Despues para ahorrar tiempo bajaremos una imagen de Ubuntu o Debian reparada para VirtualBox. En estos enlaces se pueden descargar diferentes versiones.</p>
@@ -136,7 +136,6 @@
 </ul>
 <p>Esta distribución es una de las que recomiendan en el propio manual de <a href="http://libretime.org/manual/preparing-the-server/">LibreTime</a>
 <a href="https://drive.google.com/file/d/0B_HAFnYs6Ur-N0d2MGMxWGI5Uzg/view?usp=sharing">Ubuntu_16.04.3-VB-32bit.7z (1.0G)</a> (Username: osboxes, password: osboxes.org).</p>
-<h1 id="debian">Debian</h1>
 <p>Yo voy a probar con [<strong>Debian 9.1 Stretch</strong>] descargado de <a href="http://www.osboxes.org/debian/">OSBoxes.org</a> como "Debian 9.1.0 (32bit).vdi"(Username: osboxes, Password: osboxes.org, Root Account Password: osboxes.org).</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/01.png" /></p>
 <p>Desde el primer momento el gestor de paquetes apt me ha dado problemas instalando Git, al final no he tenido más remedio que editar <code># nano /etc/apt/sources.list</code> y agregar la siguiente línea:</p>
@@ -151,6 +150,7 @@
 <pre><code># apt-get install git
 </code></pre>
 
+<h1 id="instalar-libretime">Instalar LibreTime</h1>
 <p>Ahora voy a clonar el repositorio <a href="https://github.com/libretime/libretime.git">LibreTime en GitHub</a>.</p>
 <pre><code># git clone https://github.com/libretime/libretime.git
 </code></pre>
