@@ -1,4 +1,4 @@
-# Creando la máquina virtual
+# Máquina virtual
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" width="200" height="200" />
 
@@ -12,8 +12,6 @@ Despues para ahorrar tiempo bajaremos una imagen de Ubuntu o Debian reparada par
 Esta distribución es una de las que recomiendan en el propio manual de [LibreTime](http://libretime.org/manual/preparing-the-server/)
 [Ubuntu_16.04.3-VB-32bit.7z (1.0G)](https://drive.google.com/file/d/0B_HAFnYs6Ur-N0d2MGMxWGI5Uzg/view?usp=sharing) (Username: osboxes, password: osboxes.org).
 
-
-# Debian
 
 Yo voy a probar con [**Debian 9.1 Stretch**] descargado de [OSBoxes.org](http://www.osboxes.org/debian/) como "Debian 9.1.0 (32bit).vdi"(Username: osboxes, Password: osboxes.org, Root Account Password: osboxes.org).
 
@@ -35,6 +33,8 @@ Ahora ya puedo instalar Git:
 ```
 # apt-get install git
 ```
+
+# Instalar LibreTime
 
 Ahora voy a clonar el repositorio [LibreTime en GitHub](https://github.com/libretime/libretime.git).
 
@@ -69,33 +69,6 @@ Con algunos errores pero se ha instalado y se puede abrir en [http://localhost](
 
 ![](../img/libretime_y_virtualbox/05.png)
 
-# Obsoleto (Ubuntu)
+Ahora ya puedo acceder desde mi maquina anfitrión a LibreTime en [http://192.168.221.103/](http://192.168.221.103/) (usuario: admin, clave: admin).
 
-La máquina ha arrancado a la perfección. Una vez arrancada he instalado el cliente Git y Vagrant con:
-
-```
-$ sudo apt-get install git
-$ sudo apt-get install virtualbox
-$ sudo apt-get install vagrant
-```
-
-[Vagrant](https://www.vagrantup.com/) es es una herramienta para la creación y configuración de entornos de desarrollo virtualizados. 
-
-# Instalación Libretime
-
-A continuación clonamos el repositorio de Libretime y lanzamos el entorno virtualizado con Vagrant:
-
-```
-$ git clone https://github.com/libretime/libretime.git
-$ cd libretime
-$ vagrant up-trusty
-```
-En ni caso la primera vez no ha funcionado porque faltaba por instalar [NFS](https://help.ubuntu.com/community/SettingUpNFSHowTo)
-
-```
-$ apt-get install nfs-kernel-server
-$ apt-get install nfs-common
-```
-
-Vagrant descarga una caja (los entornos virtualizados los llaman boxes) 
-
+![](../img/libretime_y_virtualbox/06.png)
