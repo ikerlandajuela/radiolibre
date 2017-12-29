@@ -91,7 +91,15 @@ Cuando se descargue LibreTime accedo a la carpeta y ejecuto el script `# ./insta
 
 ![](../img/libretime_y_virtualbox/14.png)
 
-Durante la instalación configura Apache, IceCast, PHP, PostreSQL, RabbitMQ y el resto de paquetes necesarios.
+Durante la instalación configura:
+
+* Apache
+* IceCast
+* PHP
+* PostreSQL
+* RabbitMQ 
+
+y el resto de paquetes necesarios.
 
 Por el momento una vez finalizada la instalación sólo puedo a [Icecast](http://icecast.org/) en [http://localhost:8000](http://localhost:8000) y a página de instalación de Airtime en [http://localhost](http://localhost), he dejado todos los parámetros como estaban (con "airtime") y he seleccionado continuar.
 
