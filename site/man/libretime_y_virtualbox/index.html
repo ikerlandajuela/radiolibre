@@ -76,10 +76,16 @@
     <a class="current" href="./">LibreTime y VirtualBox</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#maquina-virtual">Máquina virtual</a></li>
+    <li class="toctree-l3"><a href="#creando-la-laquina-virtual">Creando la láquina virtual</a></li>
+    
+
+    <li class="toctree-l3"><a href="#algunos-pasos-previos-en-debian">Algunos pasos previos en Debian</a></li>
     
 
     <li class="toctree-l3"><a href="#instalar-libretime">Instalar LibreTime</a></li>
+    
+
+    <li class="toctree-l3"><a href="#enlaces-externos">Enlaces externos</a></li>
     
 
     </ul>
@@ -126,26 +132,48 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="maquina-virtual">Máquina virtual</h1>
+                <p>Este manual tiene como propósito dar algunas indicaciones generales para montar un entorno virtualizado en <a href="https://www.debian.org/index.es.html">Debian</a> con una <strong>instalación básica de Airtime para realizar pruebas</strong>. La maquina usada como anfitrión es MS Windows 7 pero en teoría usando <a href="https://www.virtualbox.org/">VirtualBox</a> se puede hacer sobre cualquier otro sistema operativo. </p>
+<p>Para poder seguir el manual se requiere algún nivel técnico ya que en muchos casos no entra al detalle de temas como Debian o Linux (o asistir al taller presencial). </p>
+<h1 id="creando-la-laquina-virtual">Creando la láquina virtual</h1>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" width="200" height="200" /></p>
-<p>Para crear la máquina virtual en un equipo con Windows 7 usaremos la aplicación <a href="https://www.virtualbox.org/"><strong>VirtualBox</strong></a>, así que lo primero es bajar la aplicación e instalarla (yo tengo instalada la Versión 5.1.10 r112026 (Qt5.6.2)).</p>
-<p>Despues para ahorrar tiempo bajaremos una imagen de Ubuntu o Debian reparada para VirtualBox. En estos enlaces se pueden descargar diferentes versiones.</p>
-<ul>
-<li><a href="http://www.osboxes.org/ubuntu/">http://www.osboxes.org/ubuntu/</a></li>
-<li><a href="https://virtualboxes.org/images/ubuntu-server/">https://virtualboxes.org/images/ubuntu-server/</a></li>
-</ul>
-<p>Esta distribución es una de las que recomiendan en el propio manual de <a href="http://libretime.org/manual/preparing-the-server/">LibreTime</a>
-<a href="https://drive.google.com/file/d/0B_HAFnYs6Ur-N0d2MGMxWGI5Uzg/view?usp=sharing">Ubuntu_16.04.3-VB-32bit.7z (1.0G)</a> (Username: osboxes, password: osboxes.org).</p>
-<p>Yo voy a probar con [<strong>Debian 9.1 Stretch</strong>] descargado de <a href="http://www.osboxes.org/debian/">OSBoxes.org</a> como "Debian 9.1.0 (32bit).vdi"(Username: osboxes, Password: osboxes.org, Root Account Password: osboxes.org).</p>
+<p>Para crear la máquina virtual en un equipo con Windows 7 usaremos la aplicación <a href="https://www.virtualbox.org/"><strong>VirtualBox</strong></a>, así que lo primero es bajar la aplicación e instalarla (yo tengo instalada la Versión 5.1.10 r112026 (Qt5.6.2)). Si usas un sistema operativo Linux,OS X o Windows no deberías tener problemas para instalar VirtualBox por primera vez, <strong>VirtualBox</strong> es multiplataforma y funciona muy bien, salvo los primeros pasos el resto será parecido en cualquier otro sistema operativo.</p>
+<p>Descarga <a href="http://bit.ly/2ljC3oI">VirtualBox-5.2.4-119785-Win.exe</a> para MS Windows (Google Drive).</p>
+<p>Despues para ahorrar tiempo <strong>bajaremos una imagen de Ubuntu o Debian reparada para VirtualBox</strong>. En estos enlaces se pueden descargar diferentes versiones: <a href="http://www.osboxes.org/">OSBoxes.org</a>, <a href="https://virtualboxes.org/">VirtualBoxes.org</a>.</p>
+<p>Esta distribución de Ubuntu por ejemplo es una de las que recomiendan en el propio manual de <a href="http://libretime.org/manual/preparing-the-server/">LibreTime</a>
+ <a href="https://drive.google.com/file/d/0B_HAFnYs6Ur-N0d2MGMxWGI5Uzg/view?usp=sharing">Ubuntu_16.04.3-VB-32bit.7z (1.0G)</a> (Username: osboxes, password: osboxes.org).</p>
+<p>Yo voy a probar con <a href="https://www.debian.org/News/2017/20170722"><strong>Debian 9.1 Stretch</strong></a> descargado de <a href="http://www.osboxes.org/debian/">OSBoxes.org</a> como "Debian_9.1.0-VB-32bit.7z" comprimido con <a href="http://www.7-zip.org/">7-Zip</a>. Usuario: osboxes, clave: osboxes.org, Root Account Password: osboxes.org.</p>
+<p>Los archivos con extensón VDI como "Debian 9.1.0 (32bit).vdi" o otros que queramos importar en Virtual Box es una imagen de un disco duro, por eso antes de empezar hay que crear una nueva maquina virtual. En el menú principal de Virtual Box seleccionamos Máquina &gt; Nueva. </p>
+<p><img alt="" src="../../img/libretime_y_virtualbox/07.png" /></p>
+<p>En la siguiente pantalla asignamos la memoria RAM que se dedicará a la máquina virtual (mínimo 1GB recomendable). </p>
+<p>En el momento de seleccionar el disco duro debemos agregar uno existente (el archivo "Debian 9.1.0 (32bit).vdi" descargado y descomprimido previamente).  </p>
+<p><img alt="" src="../../img/libretime_y_virtualbox/08.png" /></p>
+<p>Ya estamos preparados para arrancar nuestra máquina virtual con Debian.</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/01.png" /></p>
+<h1 id="algunos-pasos-previos-en-debian">Algunos pasos previos en Debian</h1>
 <p>Desde el primer momento el gestor de paquetes apt me ha dado problemas instalando Git, al final no he tenido más remedio que editar <code># nano /etc/apt/sources.list</code> y agregar la siguiente línea:</p>
-<pre><code>deb http://ftp.ca.debian.org/debian/ jessie main contrib
+<p>He abierto un terminal de comandos y me he logeado como administrador con <code>su</code> (solicita contraseña "osboxes.org")</p>
+<p><img alt="" src="../../img/libretime_y_virtualbox/09.png" /></p>
+<p>Ahora instalo el cliente <a href="https://git-scm.com/">Git</a> para clonar el repositorio <a href="https://github.com/LibreTime/libretime">LibreTime</a> de GitHub:</p>
+<pre><code># apt-get install git
 </code></pre>
 
-<p>Y después actualizar el sistema:</p>
-<pre><code># apt-get update &amp;&amp; apt-get upgrade &amp;&amp; apt-get dist-upgrade
+<p>Tengo un problema, el sistema me solicita que inserte el DVD de Debian para buscar los paquetes necesarios, cancelo la operación.</p>
+<p>Edito el fichero que contiene los repositorios donde Debian busca para instalar las aplicaciones <code># nano /etc/apt/sources.list</code>. La línea donde hace referencia al cdrom debemos comentarla escribiendo un '#' por delante (para familiarizarse con el editor de textos Nano dejo algunos enlaces en <a href="./#enlaces-externos">Enlaces externos</a>).</p>
+<p><img alt="" src="../../img/libretime_y_virtualbox/10.png" /></p>
+<p>Volvemos a tratar de instalar Git (<code># apt-get install git</code>) pero en esta ocasión se produce un error de dependencias.</p>
+<p><img alt="" src="../../img/libretime_y_virtualbox/11.png" /></p>
+<p>Voy a añadir dos nuevas líneas a <code># nano /etc/apt/sources.list</code>:</p>
+<pre><code>deb  http://deb.debian.org/debian  stretch main
+deb-src  http://deb.debian.org/debian  stretch main
 </code></pre>
 
+<p><img alt="" src="../../img/libretime_y_virtualbox/12.png" /></p>
+<p>Y después he ejecutado en la línea de comandos:</p>
+<pre><code># apt update &amp;&amp; apt upgrade
+</code></pre>
+
+<p>Para actualizar con la información de los nuevos repositorios y para actualizar las versiones de los paquetes que tenemos instalados en Debian.</p>
+<p><img alt="" src="../../img/libretime_y_virtualbox/13.png" /></p>
 <p>Ahora ya puedo instalar Git:</p>
 <pre><code># apt-get install git
 </code></pre>
@@ -156,17 +184,7 @@
 </code></pre>
 
 <p>Cuando se descargue LibreTime accedo a la carpeta y ejecuto el script <code># ./install</code>. Comienza el proceso de instalación pero hay problemas de dependencias no resueltas con Apache y PHP. He añadido las dos siguientes líneas a <code>/etc/apt/sources.list</code>:</p>
-<pre><code>deb  http://deb.debian.org/debian  stretch main
-deb-src  http://deb.debian.org/debian  stretch main
-</code></pre>
-
-<p>Y después he ejecutado</p>
-<pre><code># apt update &amp;&amp; apt upgrade
-</code></pre>
-
-<p>Vuelvo a ejecutar el script de instalación <code>./install</code>. </p>
-<p><img alt="" src="../../img/libretime_y_virtualbox/02.png" /></p>
-<p>Parece que ahora funciona correctamente. Durante la instalación configura Apache, IceCast, PHP, PostreSQL, RabbitMQ y el resto de paquetes necesarios.</p>
+<p>Durante la instalación configura Apache, IceCast, PHP, PostreSQL, RabbitMQ y el resto de paquetes necesarios.</p>
 <p>Por el momento una vez finalizada la instalación sólo puedo a <a href="http://icecast.org/">Icecast</a> en <a href="http://localhost:8000">http://localhost:8000</a> y a página de instalación de Airtime en <a href="http://localhost">http://localhost</a>, he dejado todos los parámetros como estaban (con "airtime") y he seleccionado continuar.</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/03.png" /></p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/04.png" /></p>
@@ -174,6 +192,16 @@ deb-src  http://deb.debian.org/debian  stretch main
 <p><img alt="" src="../../img/libretime_y_virtualbox/05.png" /></p>
 <p>Ahora ya puedo acceder desde mi maquina anfitrión a LibreTime en <a href="http://192.168.221.103/">http://192.168.221.103/</a> (usuario: admin, clave: admin).</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/06.png" /></p>
+<h1 id="enlaces-externos">Enlaces externos</h1>
+<ul>
+<li>Web principal con documentación <a href="http://libretime.org/">http://libretime.org/</a>.</li>
+<li>Repositorio en <a href="https://github.com/LibreTime/libretime/">GitHub</a>.</li>
+</ul>
+<p>Editor <strong>Nano</strong>:</p>
+<ul>
+<li><a href="https://www.nanotutoriales.com/tutorial-del-editor-de-texto-nano">https://www.nanotutoriales.com/tutorial-del-editor-de-texto-nano</a>.</li>
+<li><a href="https://www.atareao.es/software/programacion/nano-un-editor-de-texto-para-la-terminal/">https://www.atareao.es/software/programacion/nano-un-editor-de-texto-para-la-terminal/</a>.</li>
+</ul>
               
             </div>
           </div>
