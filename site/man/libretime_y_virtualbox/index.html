@@ -135,6 +135,7 @@
                 <p>Este manual tiene como propósito dar algunas indicaciones generales para montar un entorno virtualizado en <a href="https://www.debian.org/index.es.html">Debian</a> con una <strong>instalación básica de Airtime para realizar pruebas</strong>. La maquina usada como anfitrión es MS Windows 7 pero en teoría usando <a href="https://www.virtualbox.org/">VirtualBox</a> se puede hacer sobre cualquier otro sistema operativo. </p>
 <p>Para poder seguir el manual se requiere algún nivel técnico ya que en muchos casos no entra al detalle de temas como Debian o Linux (o asistir al taller presencial). </p>
 <h1 id="creando-la-laquina-virtual">Creando la láquina virtual</h1>
+<p>Virtualización técnica mediante la cual, utilizando un software determinado (QEMU, VirtualBox, Hyper-V, VMWare...), podemos crear un hardware "virtual", que a grandes rasgos funciona como un ordenador independiente, en el que instalar otro sistema operativo en él, por encima de nuestro sistema principal, y utilizarlo como si se tratase de un sistema operativo independiente y con la seguridad de que nada de lo que hagamos perjudicará al sistema real. </p>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" width="200" height="200" /></p>
 <p>Para crear la máquina virtual en un equipo con Windows 7 usaremos la aplicación <a href="https://www.virtualbox.org/"><strong>VirtualBox</strong></a>, así que lo primero es bajar la aplicación e instalarla (yo tengo instalada la Versión 5.1.10 r112026 (Qt5.6.2)). Si usas un sistema operativo Linux,OS X o Windows no deberías tener problemas para instalar VirtualBox por primera vez, <strong>VirtualBox</strong> es multiplataforma y funciona muy bien, salvo los primeros pasos el resto será parecido en cualquier otro sistema operativo.</p>
 <p>Descarga <a href="http://bit.ly/2ljC3oI">VirtualBox-5.2.4-119785-Win.exe</a> para MS Windows (Google Drive).</p>
@@ -150,7 +151,6 @@
 <p>Ya estamos preparados para arrancar nuestra máquina virtual con Debian.</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/01.png" /></p>
 <h1 id="algunos-pasos-previos-en-debian">Algunos pasos previos en Debian</h1>
-<p>Desde el primer momento el gestor de paquetes apt me ha dado problemas instalando Git, al final no he tenido más remedio que editar <code># nano /etc/apt/sources.list</code> y agregar la siguiente línea:</p>
 <p>He abierto un terminal de comandos y me he logeado como administrador con <code>su</code> (solicita contraseña "osboxes.org")</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/09.png" /></p>
 <p>Ahora instalo el cliente <a href="https://git-scm.com/">Git</a> para clonar el repositorio <a href="https://github.com/LibreTime/libretime">LibreTime</a> de GitHub:</p>
@@ -183,8 +183,17 @@ deb-src  http://deb.debian.org/debian  stretch main
 <pre><code># git clone https://github.com/libretime/libretime.git
 </code></pre>
 
-<p>Cuando se descargue LibreTime accedo a la carpeta y ejecuto el script <code># ./install</code>. Comienza el proceso de instalación pero hay problemas de dependencias no resueltas con Apache y PHP. He añadido las dos siguientes líneas a <code>/etc/apt/sources.list</code>:</p>
-<p>Durante la instalación configura Apache, IceCast, PHP, PostreSQL, RabbitMQ y el resto de paquetes necesarios.</p>
+<p>Cuando se descargue LibreTime accedo a la carpeta y ejecuto el script <code># ./install</code>. </p>
+<p><img alt="" src="../../img/libretime_y_virtualbox/14.png" /></p>
+<p>Durante la instalación configura:</p>
+<ul>
+<li>Apache</li>
+<li>IceCast</li>
+<li>PHP</li>
+<li>PostreSQL</li>
+<li>RabbitMQ </li>
+</ul>
+<p>y el resto de paquetes necesarios.</p>
 <p>Por el momento una vez finalizada la instalación sólo puedo a <a href="http://icecast.org/">Icecast</a> en <a href="http://localhost:8000">http://localhost:8000</a> y a página de instalación de Airtime en <a href="http://localhost">http://localhost</a>, he dejado todos los parámetros como estaban (con "airtime") y he seleccionado continuar.</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/03.png" /></p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/04.png" /></p>
