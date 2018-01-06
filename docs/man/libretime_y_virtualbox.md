@@ -4,6 +4,8 @@ Para poder seguir el manual se requiere algún nivel técnico ya que en muchos c
 
 # Creando la láquina virtual 
 
+Virtualización técnica mediante la cual, utilizando un software determinado (QEMU, VirtualBox, Hyper-V, VMWare...), podemos crear un hardware "virtual", que a grandes rasgos funciona como un ordenador independiente, en el que instalar otro sistema operativo en él, por encima de nuestro sistema principal, y utilizarlo como si se tratase de un sistema operativo independiente y con la seguridad de que nada de lo que hagamos perjudicará al sistema real. 
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" width="200" height="200" />
 
 Para crear la máquina virtual en un equipo con Windows 7 usaremos la aplicación [**VirtualBox**](https://www.virtualbox.org/), así que lo primero es bajar la aplicación e instalarla (yo tengo instalada la Versión 5.1.10 r112026 (Qt5.6.2)). Si usas un sistema operativo Linux,OS X o Windows no deberías tener problemas para instalar VirtualBox por primera vez, **VirtualBox** es multiplataforma y funciona muy bien, salvo los primeros pasos el resto será parecido en cualquier otro sistema operativo.
@@ -32,8 +34,6 @@ Ya estamos preparados para arrancar nuestra máquina virtual con Debian.
 ![](../img/libretime_y_virtualbox/01.png)
 
 # Algunos pasos previos en Debian  
-
-Desde el primer momento el gestor de paquetes apt me ha dado problemas instalando Git, al final no he tenido más remedio que editar `# nano /etc/apt/sources.list` y agregar la siguiente línea:
 
 He abierto un terminal de comandos y me he logeado como administrador con `su` (solicita contraseña "osboxes.org")
 
