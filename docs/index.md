@@ -8,13 +8,12 @@ Contenidos:
 
 # Presentación 
 
-Bienvenido a la Web creada para el taller que vamos a impartir sobre como hacer una radio libre comunitaria en Internet usando tecnologías libres como [Libretime](https://github.com/LibreTime) y otras. El taller abarcara durante dos días desde el montaje del sistema a la pogramación y difusión de contenidos. 
-
+Bienvenido a la Web creada para el taller que vamos a impartir sobre como hacer una radio libre comunitaria en Internet usando tecnologías libres como [Libretime](https://github.com/LibreTime). El taller abarcara durante dos días desde el montaje del sistema a la pogramación y difusión de contenidos. 
 Nuestra intención es ir creando todo el material y manuales necesarios para cuando llegue el día del taller todos los recursos esten preparados y libremente disponibles para los asistentes o quien quiera.
 
 # Fecha y lugar
 
-* **Fechas**: **27 y 28 de Enero**, el taller consta de dos sesiones. 
+* **Fechas**: El taller consta de dos sesiones. 
 	* 28 de Enero Sábado a las 17:00 horas.
 	* 29 de Enero Domingo a las 11:00 horas.
 * **Lugar**: Kultur Etxea de Bilbao La Vieja (C/ Urazurrutia 7), Bilbao ([ver mapa](https://goo.gl/maps/tDxjRysVDn42)).
