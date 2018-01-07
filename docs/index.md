@@ -8,7 +8,7 @@ Contenidos:
 
 # Presentación 
 
-Bienvenido a la Web creada para el taller que vamos a impartir sobre como hacer una radio libre comunitaria en Internet usando tecnologías libres como [Libretime](https://github.com/LibreTime). El taller abarcara durante dos días desde el montaje del sistema a la pogramación y difusión de contenidos. 
+Bienvenido a la **Web creada para el taller que vamos a impartir sobre como hacer una radio libre comunitaria en Internet usando tecnologías libres** como [Libretime](https://github.com/LibreTime). El taller abarcara durante dos días desde el montaje del sistema a la pogramación y difusión de contenidos. 
 Nuestra intención es ir creando todo el material y manuales necesarios para cuando llegue el día del taller todos los recursos esten preparados y libremente disponibles para los asistentes o quien quiera.
 
 # Fecha y lugar
