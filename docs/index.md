@@ -14,13 +14,13 @@ Nuestra intención es ir creando todo el material y manuales necesarios para cua
 # Fecha y lugar
 
 * **Fechas**: El taller consta de dos sesiones. 
-	* 28 de Enero Sábado a las 17:00 horas.
-	* 29 de Enero Domingo a las 11:00 horas.
+	* 27 de Enero Sábado a las 17:00 horas.
+	* 28 de Enero Domingo a las 11:00 horas.
 * **Lugar**: Kultur Etxea de Bilbao La Vieja (C/ Urazurrutia 7), Bilbao ([ver mapa](https://goo.gl/maps/tDxjRysVDn42)).
 * **Organizadores**: Kultur Etxea, 97 Irratia.
 * Correo electrónico de contacto: <ikastaroak.kulturetxea@gmail.com>.
 
-# Inscribete al taller
+# Inscripción al taller
 
 Normalmente trabajamos con grupos pequeños de no más de 8 o 10 personas. Para que nadie que realmente quiera acudir al taller se quede sin plaza pedimos que os registreis en el formulario del enlace. Despues de inscribirte debe esperar a recibir la confirmación de plaza vía correo electrónico.
 
