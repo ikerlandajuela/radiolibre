@@ -17,7 +17,7 @@ Nuestra intención es ir creando todo el material y manuales necesarios para cua
 	* 27 de Enero Sábado a las 17:00 horas.
 	* 28 de Enero Domingo a las 11:00 horas.
 * **Lugar**: Kultur Etxea de Bilbao La Vieja (C/ Urazurrutia 7), Bilbao ([ver mapa](https://goo.gl/maps/tDxjRysVDn42)).
-* **Organizadores**: Kultur Etxea, 97 Irratia.
+* **Organizadores**: Kultur Etxea, [97 Irratia](https://97irratia.info/es/).
 * Correo electrónico de contacto: <ikastaroak.kulturetxea@gmail.com>.
 
 # Inscripción al taller

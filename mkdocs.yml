@@ -3,7 +3,7 @@ site_author: Iker Landajuela
 google_analytics: ['UA-111273781-1', 'https://ikerlandajuela.github.io/radiolibre/']
 repo_url: https://github.com/ikerlandajuela/radiolibre
 pages:
-    - Home: index.md    
+    - Inicio: index.md    
     - Material: material.md
     - Manuales: 
         - 'LibreTime y VirtualBox': 'man/libretime_y_virtualbox.md'
