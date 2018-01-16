@@ -69,6 +69,31 @@
             "location": "/man/libretime_y_virtualbox/#enlaces-externos", 
             "text": "Web principal con documentaci\u00f3n  http://libretime.org/ .  Repositorio en  GitHub .   Editor  Nano :   https://www.nanotutoriales.com/tutorial-del-editor-de-texto-nano .  https://www.atareao.es/software/programacion/nano-un-editor-de-texto-para-la-terminal/ .", 
             "title": "Enlaces externos"
+        }, 
+        {
+            "location": "/recursos/", 
+            "text": "Enlaces externos\n\n\n\n\nPortal de Radios L ibres del Estado espa\u00f1ol\n \n\n\n\n\nGu\u00eda PDF \"Como hacer una radio\"\n\n\n\n\nGuia-LADA_Como-hacer-una-radio.pdf\n: \nLa Aventura de Aprender\n es un espacio de encuentro de intercambio en torno a los aprendizajes para descubrir qu\u00e9 pr\u00e1cticas, atm\u00f3sferas, espacios y agentes hacen funcionar las comunidades; sus porqu\u00e9s y sus c\u00f3mos o en otras palabras, sus anhelos y protocolos. \nRadio Guerrilla\n  (\n@RadioGuerrilla_\n) es un nodo de trabajo vinculado a radios libres y comunitarias, orientado a la experimentaci\u00f3n de formas horizontales de comunicaci\u00f3n, la implementaci\u00f3n de metodolog\u00edas colaborativas y la innovaci\u00f3n t\u00e9cnica desde radios deslocalizadas, itinerantes, \u00e1giles y sorpresivas\u2026 radios de guerrilla.\n\n\nEBook \"Tutorial edici\u00f3n de sonido con Audacity\"\n\n\n\n\nebook_tutorial_edicion_de_sonido_con_audacity.pdf\n.\n\n\nManual manejo de Airtime\n\n\nManejo_de_Airtime.pdf", 
+            "title": "Recursos"
+        }, 
+        {
+            "location": "/recursos/#enlaces-externos", 
+            "text": "Portal de Radios L ibres del Estado espa\u00f1ol", 
+            "title": "Enlaces externos"
+        }, 
+        {
+            "location": "/recursos/#guia-pdf-como-hacer-una-radio", 
+            "text": "Guia-LADA_Como-hacer-una-radio.pdf :  La Aventura de Aprender  es un espacio de encuentro de intercambio en torno a los aprendizajes para descubrir qu\u00e9 pr\u00e1cticas, atm\u00f3sferas, espacios y agentes hacen funcionar las comunidades; sus porqu\u00e9s y sus c\u00f3mos o en otras palabras, sus anhelos y protocolos.  Radio Guerrilla   ( @RadioGuerrilla_ ) es un nodo de trabajo vinculado a radios libres y comunitarias, orientado a la experimentaci\u00f3n de formas horizontales de comunicaci\u00f3n, la implementaci\u00f3n de metodolog\u00edas colaborativas y la innovaci\u00f3n t\u00e9cnica desde radios deslocalizadas, itinerantes, \u00e1giles y sorpresivas\u2026 radios de guerrilla.", 
+            "title": "Gu\u00eda PDF \"Como hacer una radio\""
+        }, 
+        {
+            "location": "/recursos/#ebook-tutorial-edicion-de-sonido-con-audacity", 
+            "text": "ebook_tutorial_edicion_de_sonido_con_audacity.pdf .", 
+            "title": "EBook \"Tutorial edici\u00f3n de sonido con Audacity\""
+        }, 
+        {
+            "location": "/recursos/#manual-manejo-de-airtime", 
+            "text": "Manejo_de_Airtime.pdf", 
+            "title": "Manual manejo de Airtime"
         }
     ]
 }
