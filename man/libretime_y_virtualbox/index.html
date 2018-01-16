@@ -85,6 +85,9 @@
     <li class="toctree-l3"><a href="#instalar-libretime">Instalar LibreTime</a></li>
     
 
+    <li class="toctree-l3"><a href="#administracion-basica-libretime-y-debian">Administración básica LibreTime y Debian</a></li>
+    
+
     <li class="toctree-l3"><a href="#enlaces-externos">Enlaces externos</a></li>
     
 
@@ -206,10 +209,28 @@ deb-src  http://deb.debian.org/debian  stretch main
 <p><img alt="" src="../../img/libretime_y_virtualbox/05.png" /></p>
 <p>Ahora ya puedo acceder desde mi maquina anfitrión a LibreTime en <a href="http://192.168.221.103/">http://192.168.221.103/</a> (usuario: admin, clave: admin).</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/06.png" /></p>
+<h1 id="administracion-basica-libretime-y-debian">Administración básica LibreTime y Debian</h1>
+<p>Para poder administrar remotamente el servidor Debian con LibreTime desde cualquier sitio y tener acceso completo a la máquina en modo gráfico lo mejor es instalar un servidor VNC</p>
+<pre><code># apt install tightvncserver
+</code></pre>
+
+<p>Arrancamos la sesión en el servidor</p>
+<pre><code># tightvncserver
+</code></pre>
+
+<p>Para conectarnos remotamente con un cliente VNC <a href="http://www.tightvnc.com/download.php">TightVNC</a> o <a href="http://www.uvnc.com/">UltraVNC</a> son buenas opciónes para MS Win.</p>
+<p><img alt="" src="../../img/libretime_y_virtualbox/15.png" /></p>
+<p>Si queremos saber que IP tiene nuestra máquina virtual (especialmente si estamos en casa y nuestro router asigna IPs dinámicas usando DHCP) escribimos <code># ip addr show</code>.</p>
+<p>Otros comandos del servidor VNC:</p>
+<p>service vncserver status</p>
 <h1 id="enlaces-externos">Enlaces externos</h1>
 <ul>
 <li>Web principal con documentación <a href="http://libretime.org/">http://libretime.org/</a>.</li>
 <li>Repositorio en <a href="https://github.com/LibreTime/libretime/">GitHub</a>.</li>
+</ul>
+<p><strong>VNC Server</strong>:</p>
+<ul>
+<li><a href="">VNC server/client setup on Debian 9 Stretch Linux - LinuxConfig.org</a>.</li>
 </ul>
 <p>Editor <strong>Nano</strong>:</p>
 <ul>
