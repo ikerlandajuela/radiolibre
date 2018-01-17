@@ -115,10 +115,40 @@ Ahora ya puedo acceder desde mi maquina anfitrión a LibreTime en [http://192.16
 
 ![](../img/libretime_y_virtualbox/06.png)
 
+# Administración básica LibreTime y Debian
+
+Para poder administrar remotamente el servidor Debian con LibreTime desde cualquier sitio y tener acceso completo a la máquina en modo gráfico lo mejor es instalar un servidor VNC
+
+```
+# apt install tightvncserver
+```
+
+Arrancamos la sesión en el servidor
+
+```
+# tightvncserver
+```
+
+Para conectarnos remotamente con un cliente VNC [TightVNC](http://www.tightvnc.com/download.php) o [UltraVNC](http://www.uvnc.com/) son buenas opciónes para MS Win.
+
+![](../img/libretime_y_virtualbox/15.png)
+
+Si queremos saber que IP tiene nuestra máquina virtual (especialmente si estamos en casa y nuestro router asigna IPs dinámicas usando DHCP) escribimos `# ip addr show`.
+
+Otros comandos del servidor VNC:
+
+service vncserver status
+
+
+
 # Enlaces externos
 
 * Web principal con documentación [http://libretime.org/](http://libretime.org/).
 * Repositorio en [GitHub](https://github.com/LibreTime/libretime/).
+
+**VNC Server**:
+
+* [VNC server/client setup on Debian 9 Stretch Linux - LinuxConfig.org](	).
 
 Editor **Nano**:
 

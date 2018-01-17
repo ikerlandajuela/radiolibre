@@ -1,17 +1,11 @@
 <img src="img/radio.PNG" width="200" height="200" />
 
-Contenidos:
-
-* [Presentación](#presentación)
-* [Fecha y lugar](#fecha-y-lugar)
-* [Inscribete al taller](#inscribete-al-taller)
-
 # Presentación 
 
 Bienvenido a la **Web creada para el taller que vamos a impartir sobre como hacer una radio libre comunitaria en Internet usando tecnologías libres** como [Libretime](https://github.com/LibreTime). El taller abarcara durante dos días desde el montaje del sistema a la pogramación y difusión de contenidos. 
 Nuestra intención es ir creando todo el material y manuales necesarios para cuando llegue el día del taller todos los recursos esten preparados y libremente disponibles para los asistentes o quien quiera.
 
-# Fecha y lugar
+# Información
 
 * **Fechas**: El taller consta de dos sesiones. 
 	* 27 de Enero Sábado a las 17:00 horas.
@@ -19,6 +13,8 @@ Nuestra intención es ir creando todo el material y manuales necesarios para cua
 * **Lugar**: Kultur Etxea de Bilbao La Vieja (C/ Urazurrutia 7), Bilbao ([ver mapa](https://goo.gl/maps/tDxjRysVDn42)).
 * **Organizadores**: Kultur Etxea, [97 Irratia](https://97irratia.info/es/).
 * Correo electrónico de contacto: <ikastaroak.kulturetxea@gmail.com>.
+* [Evento en Facebook](https://www.facebook.com/events/140717666728417/).
+* Grupo de correo electrónico con invitación previa <gruporadiolibrekultur@googlegroups.com>.
 
 # Inscripción al taller
 
