@@ -6,8 +6,8 @@ pages:
     - Inicio: index.md    
     - Material: material.md
     - Manuales: 
-        - 'LibreTime y VirtualBox': 'man/libretime_y_virtualbox.md'
-        - 'LibreTime': 'man/libretime.md'
-        - 'Cliente estudio': 'man/cliente_estudio.md'
+        - 'Servidor de radio en máquina virtual': 'man/libretime_y_virtualbox.md'
+        - 'Manual LibreTime': 'man/libretime.md'
+        - 'Estudio colaboradores': 'man/cliente_estudio.md'
     - Recursos: recursos.md
 theme: readthedocs
