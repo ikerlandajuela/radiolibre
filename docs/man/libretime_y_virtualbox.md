@@ -98,6 +98,7 @@ Durante la instalación configura:
 * PHP
 * PostreSQL
 * [RabbitMQ](https://www.rabbitmq.com/). 
+* [Liquidsoap](http://savonet.sourceforge.net/): Utilidades streaming.
 
 y el resto de paquetes necesarios.
 
@@ -157,9 +158,9 @@ Para averiguar los puertos que tenemos abiertos usamos el comando `ss`:
 # ss -lntu
 ```
 
+Mensajes de log del sistema en `/var/log/messages`.
+
 Servicios o demonios:
-
-
 
 ## Servidor Apache 
 
@@ -179,11 +180,19 @@ Si se produce un error del comando `RewriteEngine` de Apache probablemente no es
 
 Y volvemos a probar a arrancar el servicio de Apache. 
 
+Podemos encontrar los logs en `/var/log/apache2`.
+
 ## Web en PHP
 
 Los ficheros de la Web de administración de Airtime se encuentran normalmente en `/usr/share/airtime/php/`.
 
+Los logs podemos encontrarlos en `/var/log/airtime/zendphp.log`
 
+Los archivos importados en `/srv/airtime/stor/import/`.
+
+## Airtime Analyzer
+
+Logs en `/var/log/airtime/airtime_analyzer.log` 
 
 # ADMINISTRACIÓN REMOTA DEL SERVIDOR
 
