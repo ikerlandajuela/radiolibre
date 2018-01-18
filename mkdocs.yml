@@ -9,5 +9,6 @@ pages:
         - 'Servidor de radio en máquina virtual': 'man/libretime_y_virtualbox.md'
         - 'Manual LibreTime': 'man/libretime.md'
         - 'Estudio colaboradores': 'man/cliente_estudio.md'
+        - 'Problemas comunes': 'man/problemas_comunes.md'
     - Recursos: recursos.md
 theme: readthedocs

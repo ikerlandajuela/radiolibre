@@ -2,6 +2,10 @@
 
 * [Portal de Radios L ibres del Estado español](https://radioslibres.info/) 
 
+**Recursos y aplicaciones:**
+
+* [GitHub - ebu/awesome-broadcasting: A curated list of amazingly ...](https://github.com/ebu/awesome-broadcasting): A curated list of amazingly awesome open source resources for broadcasters.
+
 # Guía PDF "Como hacer una radio"
 
 ![](res/Guia-LADA_Como-hacer-una-radio_portada.PNG)

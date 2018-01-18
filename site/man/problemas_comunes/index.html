@@ -8,7 +8,7 @@
   
   <meta name="author" content="Iker Landajuela">
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Manual LibreTime - Taller radio libre</title>
+  <title>Problemas comunes - Taller radio libre</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -17,9 +17,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Manual LibreTime";
-    var mkdocs_page_input_path = "man\\libretime.md";
-    var mkdocs_page_url = "/man/libretime/";
+    var mkdocs_page_name = "Problemas comunes";
+    var mkdocs_page_input_path = "man\\problemas_comunes.md";
+    var mkdocs_page_url = "/man/problemas_comunes/";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js"></script>
@@ -75,29 +75,26 @@
                     
     <a class="" href="../libretime_y_virtualbox/">Servidor de radio en máquina virtual</a>
                 </li>
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">Manual LibreTime</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#configuracion-basica-inicial">Configuración básica inicial</a></li>
-    
-
-    <li class="toctree-l3"><a href="#subir-un-audio">Subir un audio</a></li>
-    
-
-    <li class="toctree-l3"><a href="#crear-un-show-o-programa">Crear un show o programa</a></li>
-    
-
-    </ul>
+    <a class="" href="../libretime/">Manual LibreTime</a>
                 </li>
                 <li class="">
                     
     <a class="" href="../cliente_estudio/">Estudio colaboradores</a>
                 </li>
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../problemas_comunes/">Problemas comunes</a>
+    <a class="current" href="./">Problemas comunes</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#no-importa-archivos-mp3">No importa archivos mp3</a></li>
+    
+
+    <li class="toctree-l3"><a href="#ventana-emergente">Ventana emergente</a></li>
+    
+
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -133,10 +130,10 @@
         
       
     
-    <li>Manual LibreTime</li>
+    <li>Problemas comunes</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/ikerlandajuela/radiolibre/edit/master/docs/man/libretime.md"
+        <a href="https://github.com/ikerlandajuela/radiolibre/edit/master/docs/man/problemas_comunes.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -146,33 +143,8 @@
           <div role="main">
             <div class="section">
               
-                <p>Empezamos este manual partiendo de la instalación limpia realizada en <a href="../libretime_y_virtualbox/">LibreTime y VirtualBox</a>. El propósito de este manual documentar el interface de administración Web de LibreTime.</p>
-<p><img alt="" src="../../img/libretime/01.png" /></p>
-<h1 id="configuracion-basica-inicial">Configuración básica inicial</h1>
-<p>Realizamos algunos cambios básicos en 'Settings' (en la barra lateral vertical izquierda en la parte inferior opción de configuración)</p>
-<p><img alt="" src="../../img/libretime/02.png" /></p>
-<ul>
-<li>Idioma por defecto: 'Español'.</li>
-<li>Zona horaria (<strong>importante</strong> para funcionamiento posterior de emisiones): 'Europe/Madrid'.</li>
-<li>La semana comienza en Lunes.</li>
-</ul>
-<p>No olvidar salvar preferencias con botón 'save'.</p>
-<h1 id="subir-un-audio">Subir un audio</h1>
-<p>Tal como sugiere LibreTime vamos a empezar subiendo un audio de muestra. En la esquina superior izquierda existe un botón 'Upload'.</p>
-<p><img alt="" src="../../img/libretime/03.png" /></p>
-<p>Cuando finaliza la importación <strong>los archivos se almacenan en <code>/srv/airtime/stor/imported/</code></strong> en el sistema.</p>
-<h1 id="crear-un-show-o-programa">Crear un show o programa</h1>
-<p>Ahora que hemos subido nuestro primer audio es hora de programar un 'show' en la opción de calendario del menú. Seleccionamos una fecha del calendario pinchando sobre ella (o usando el botón '+New Show').</p>
-<p><img alt="" src="../../img/libretime/04.png" /></p>
-<p>Para crear un 'show' debemos fijar una fecha y hora de inicio y final y darle un nombre como mínimo.</p>
-<p>Una vez creado y cuando ya lo vemos en el calendario hacemos click sobre la cita en el calendario para abrir un menú contextual y seleccionamos 'Schedule Tracks'. Existen reglas para evitar por ejemplo solapar dos shows.</p>
-<p><img alt="" src="../../img/libretime/05.png" /></p>
-<p>Arrastramos y soltamos las pistas de audio del panel izquierdo al derecho para ir creando el programa. LibreTime nos ira indicando el tiempo restante para llenar el tiempo que hemos defnido que debe durar.</p>
-<p><img alt="" src="../../img/libretime/06.png" /></p>
-<p>Cuando se inicie el programa en la fecha hora prefijada se activan los controles.</p>
-<p><img alt="" src="../../img/libretime/07.png" /></p>
-<p>Podemos escucharlo ya en streaming desde cualquier otro equipo accediendo con un enlace en mi caso <a href="http://192.168.221.111:8000/airtime_128">http://192.168.221.111:8000/airtime_128</a>.</p>
-<p><img alt="" src="../../img/libretime/08.png" /></p>
+                <h1 id="no-importa-archivos-mp3">No importa archivos mp3</h1>
+<h1 id="ventana-emergente">Ventana emergente</h1>
               
             </div>
           </div>
@@ -180,10 +152,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../cliente_estudio/" class="btn btn-neutral float-right" title="Estudio colaboradores">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../recursos/" class="btn btn-neutral float-right" title="Recursos">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../libretime_y_virtualbox/" class="btn btn-neutral" title="Servidor de radio en máquina virtual"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../cliente_estudio/" class="btn btn-neutral" title="Estudio colaboradores"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -211,10 +183,10 @@
           <a href="https://github.com/ikerlandajuela/radiolibre/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../libretime_y_virtualbox/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../cliente_estudio/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../cliente_estudio/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../../recursos/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
