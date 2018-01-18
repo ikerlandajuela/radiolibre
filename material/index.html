@@ -75,6 +75,12 @@
         
             <li><a class="toctree-l3" href="#aplicaciones-y-software">Aplicaciones y software</a></li>
         
+            <li><a class="toctree-l3" href="#servidor-libretime-debian-9">Servidor LibreTime Debian 9</a></li>
+        
+            <li><a class="toctree-l3" href="#liquidsoap">Liquidsoap</a></li>
+        
+            <li><a class="toctree-l3" href="#problemas-comunes">Problemas comunes</a></li>
+        
         </ul>
     
 
@@ -92,6 +98,10 @@
                 <li class="">
                     
     <a class="" href="../man/libretime/">LibreTime</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../man/cliente_estudio/">Cliente estudio</a>
                 </li>
     </ul>
 	    </li>
@@ -140,6 +150,21 @@
 <p>Todo el material y equipos informáticos los pondremos nosotros a disposición del taller, ordenadores de sobremesa, microfonos y el resto de elementos necesarios. </p>
 <h2 id="equipos-y-perifericos">Equipos y periféricos</h2>
 <h2 id="aplicaciones-y-software">Aplicaciones y software</h2>
+<h2 id="servidor-libretime-debian-9">Servidor LibreTime Debian 9</h2>
+<ul>
+<li>Usuario: radiolibre.</li>
+<li>Clave: radiolibre.</li>
+</ul>
+<p>En la CPU con el servidor se produce error en importación, he instalado el paquete faltante 'silan'. </p>
+<pre><code># apt-get install silan
+</code></pre>
+
+<p>A pesar de todo sigue fallando la importación (ver <code>#  cat /var/log/airtime/airtime_analyzer.log</code>).</p>
+<h2 id="liquidsoap">Liquidsoap</h2>
+<p>La configuración se encuentra en <code>/etc/airtime/liquidsoap.cfg</code> y podemos alterar sus parámetros desde la Web en 'Settings' &gt; 'Stream'.</p>
+<p>Los logs en </p>
+<h2 id="problemas-comunes">Problemas comunes</h2>
+<p>No sube archivos MP3 sólo OGG.</p>
               
             </div>
           </div>

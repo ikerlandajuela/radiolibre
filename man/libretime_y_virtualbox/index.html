@@ -95,6 +95,8 @@
         
             <li><a class="toctree-l4" href="#web-en-php">Web en PHP</a></li>
         
+            <li><a class="toctree-l4" href="#airtime-analyzer">Airtime Analyzer</a></li>
+        
         </ul>
     
 
@@ -120,6 +122,10 @@
                 <li class="">
                     
     <a class="" href="../libretime/">LibreTime</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../cliente_estudio/">Cliente estudio</a>
                 </li>
     </ul>
 	    </li>
@@ -228,6 +234,7 @@ deb-src  http://deb.debian.org/debian  stretch main
 <li>PHP</li>
 <li>PostreSQL</li>
 <li><a href="https://www.rabbitmq.com/">RabbitMQ</a>. </li>
+<li><a href="http://savonet.sourceforge.net/">Liquidsoap</a>: Utilidades streaming.</li>
 </ul>
 <p>y el resto de paquetes necesarios.</p>
 <p>Por el momento una vez finalizada la instalación sólo puedo a <a href="http://icecast.org/">Icecast</a> en <a href="http://localhost:8000">http://localhost:8000</a> y a <strong>página de instalación de LibreTime</strong> en <a href="http://localhost">http://localhost</a>, he dejado todos los parámetros como estaban (con "airtime") y he seleccionado continuar.</p>
@@ -261,6 +268,7 @@ deb-src  http://deb.debian.org/debian  stretch main
 <pre><code># ss -lntu
 </code></pre>
 
+<p>Mensajes de log del sistema en <code>/var/log/messages</code>.</p>
 <p>Servicios o demonios:</p>
 <h2 id="servidor-apache">Servidor Apache</h2>
 <p>El fichero <code>/etc/apache2/sites-available/airtime.conf</code> contiene la configuración de la Web en PHP de Libretime.</p>
@@ -273,8 +281,13 @@ deb-src  http://deb.debian.org/debian  stretch main
 </code></pre>
 
 <p>Y volvemos a probar a arrancar el servicio de Apache. </p>
+<p>Podemos encontrar los logs en <code>/var/log/apache2</code>.</p>
 <h2 id="web-en-php">Web en PHP</h2>
 <p>Los ficheros de la Web de administración de Airtime se encuentran normalmente en <code>/usr/share/airtime/php/</code>.</p>
+<p>Los logs podemos encontrarlos en <code>/var/log/airtime/zendphp.log</code></p>
+<p>Los archivos importados en <code>/srv/airtime/stor/import/</code>.</p>
+<h2 id="airtime-analyzer">Airtime Analyzer</h2>
+<p>Logs en <code>/var/log/airtime/airtime_analyzer.log</code> </p>
 <h1 id="administracion-remota-del-servidor">ADMINISTRACIÓN REMOTA DEL SERVIDOR</h1>
 <h2 id="vnc">VNC</h2>
 <p>Para poder administrar remotamente el servidor Debian con LibreTime desde cualquier sitio y tener acceso completo a la máquina en modo gráfico lo mejor es instalar un servidor VNC</p>
