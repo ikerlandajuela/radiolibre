@@ -76,22 +76,50 @@
     <a class="current" href="./">LibreTime y VirtualBox</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#creando-la-laquina-virtual">Creando la láquina virtual</a></li>
+    <li class="toctree-l3"><a href="#creando-la-maquina-virtual">CREANDO LA MÁQUINA VIRTUAL</a></li>
     
 
-    <li class="toctree-l3"><a href="#algunos-pasos-previos-en-debian">Algunos pasos previos en Debian</a></li>
+    <li class="toctree-l3"><a href="#pasos-previos-en-debian">PASOS PREVIOS EN DEBIAN</a></li>
     
 
-    <li class="toctree-l3"><a href="#instalar-libretime">Instalar LibreTime</a></li>
+    <li class="toctree-l3"><a href="#instalar-libretime">INSTALAR LIBRETIME</a></li>
     
 
-    <li class="toctree-l3"><a href="#administracion-basica-libretime-y-debian">Administración básica LibreTime y Debian</a></li>
+    <li class="toctree-l3"><a href="#administracion-basica-de-las-aplicaciones">ADMINISTRACIÓN BÁSICA DE LAS APLICACIONES</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#debian">Debian</a></li>
+        
+            <li><a class="toctree-l4" href="#servidor-apache">Servidor Apache</a></li>
+        
+            <li><a class="toctree-l4" href="#web-en-php">Web en PHP</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#administracion-remota-del-servidor">ADMINISTRACIÓN REMOTA DEL SERVIDOR</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#vnc">VNC</a></li>
+        
+            <li><a class="toctree-l4" href="#ssh-secure-shell">SSH - Secure Shell</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#recursos-y-ayuda">RECURSOS Y AYUDA</a></li>
     
 
     <li class="toctree-l3"><a href="#enlaces-externos">Enlaces externos</a></li>
     
 
     </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../libretime/">LibreTime</a>
                 </li>
     </ul>
 	    </li>
@@ -142,7 +170,7 @@
               
                 <p>Este manual tiene como propósito dar algunas indicaciones generales para montar un entorno virtualizado en <a href="https://www.debian.org/index.es.html">Debian</a> con una <strong>instalación básica de Airtime para realizar pruebas</strong>. La maquina usada como anfitrión es MS Windows 7 pero en teoría usando <a href="https://www.virtualbox.org/">VirtualBox</a> se puede hacer sobre cualquier otro sistema operativo. </p>
 <p>Para poder seguir el manual se requiere algún nivel técnico ya que en muchos casos no entra al detalle de temas como Debian o Linux (o asistir al taller presencial). </p>
-<h1 id="creando-la-laquina-virtual">Creando la láquina virtual</h1>
+<h1 id="creando-la-maquina-virtual">CREANDO LA MÁQUINA VIRTUAL</h1>
 <p>Virtualización técnica mediante la cual, utilizando un software determinado (QEMU, VirtualBox, Hyper-V, VMWare...), podemos crear un hardware "virtual", que a grandes rasgos funciona como un ordenador independiente, en el que instalar otro sistema operativo en él, por encima de nuestro sistema principal, y utilizarlo como si se tratase de un sistema operativo independiente y con la seguridad de que nada de lo que hagamos perjudicará al sistema real. </p>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" width="200" height="200" /></p>
 <p>Para crear la máquina virtual en un equipo con Windows 7 usaremos la aplicación <a href="https://www.virtualbox.org/"><strong>VirtualBox</strong></a>, así que lo primero es bajar la aplicación e instalarla (yo tengo instalada la Versión 5.1.10 r112026 (Qt5.6.2)). Si usas un sistema operativo Linux,OS X o Windows no deberías tener problemas para instalar VirtualBox por primera vez, <strong>VirtualBox</strong> es multiplataforma y funciona muy bien, salvo los primeros pasos el resto será parecido en cualquier otro sistema operativo.</p>
@@ -158,7 +186,7 @@
 <p><img alt="" src="../../img/libretime_y_virtualbox/08.png" /></p>
 <p>Ya estamos preparados para arrancar nuestra máquina virtual con Debian.</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/01.png" /></p>
-<h1 id="algunos-pasos-previos-en-debian">Algunos pasos previos en Debian</h1>
+<h1 id="pasos-previos-en-debian">PASOS PREVIOS EN DEBIAN</h1>
 <p>He abierto un terminal de comandos y me he logeado como administrador con <code>su</code> (solicita contraseña "osboxes.org")</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/09.png" /></p>
 <p>Ahora instalo el cliente <a href="https://git-scm.com/">Git</a> para clonar el repositorio <a href="https://github.com/LibreTime/libretime">LibreTime</a> de GitHub:</p>
@@ -186,7 +214,7 @@ deb-src  http://deb.debian.org/debian  stretch main
 <pre><code># apt-get install git
 </code></pre>
 
-<h1 id="instalar-libretime">Instalar LibreTime</h1>
+<h1 id="instalar-libretime">INSTALAR LIBRETIME</h1>
 <p>Ahora voy a clonar el repositorio <a href="https://github.com/libretime/libretime.git">LibreTime en GitHub</a>.</p>
 <pre><code># git clone https://github.com/libretime/libretime.git
 </code></pre>
@@ -199,17 +227,56 @@ deb-src  http://deb.debian.org/debian  stretch main
 <li>IceCast</li>
 <li>PHP</li>
 <li>PostreSQL</li>
-<li>RabbitMQ </li>
+<li><a href="https://www.rabbitmq.com/">RabbitMQ</a>. </li>
 </ul>
 <p>y el resto de paquetes necesarios.</p>
-<p>Por el momento una vez finalizada la instalación sólo puedo a <a href="http://icecast.org/">Icecast</a> en <a href="http://localhost:8000">http://localhost:8000</a> y a página de instalación de Airtime en <a href="http://localhost">http://localhost</a>, he dejado todos los parámetros como estaban (con "airtime") y he seleccionado continuar.</p>
+<p>Por el momento una vez finalizada la instalación sólo puedo a <a href="http://icecast.org/">Icecast</a> en <a href="http://localhost:8000">http://localhost:8000</a> y a <strong>página de instalación de LibreTime</strong> en <a href="http://localhost">http://localhost</a>, he dejado todos los parámetros como estaban (con "airtime") y he seleccionado continuar.</p>
+<p><strong>Paso 1 de 5</strong>: Instalación de la base de datos. Username, clave y nombre 'airtime' y la máquina o host local 'localhost'. </p>
+<p><img alt="" src="../../img/libretime_y_virtualbox/16.png" /></p>
+<p><strong>Paso 2 de 5</strong>: Configuración del broker de mensajería <a href="https://www.rabbitmq.com/">RabbitMQ</a>. Dejamos como está también como en el paso 1.</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/03.png" /></p>
+<p><strong>Paso 3 de 5</strong>: Configuración general.</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/04.png" /></p>
-<p>Con algunos errores pero se ha instalado y se puede abrir en <a href="http://localhost">http://localhost</a>.</p>
+<p><strong>Paso 4 de 5</strong>: Configuración de ruta alojamiento multimedia, dejamos como está (debería crear la ruta <code>/srv/airtime/stor/</code> automáticamente). </p>
+<p><img alt="" src="../../img/libretime_y_virtualbox/17.png" /></p>
+<p><strong>Paso 5 de 5</strong>. Servicios (demonios en Linux). </p>
+<p><img alt="" src="../../img/libretime_y_virtualbox/18.png" /></p>
+<p>Para volver a iniciar el instalador Web sólo debemos borrar el fichero <code>/etc/airtime/airtime.conf</code>.</p>
+<p>Cuando acaba la instalación muestra un resumen.</p>
+<p><img alt="" src="../../img/libretime_y_virtualbox/19.png" /></p>
+<p><strong>Advertencia</strong> errores:</p>
+<ul>
+<li><strong>Airtime Analyzer</strong> no está arrancado como servicio, seguimos instrucciones ejecutando <code>service airtime_analyzer start</code> (luego comprobamos que está arrancado con <code>status</code>.</li>
+<li><strong>Pypo</strong> (Airtime playout service): Reiniciamos demonio <code>service airtime-playout restart</code>.</li>
+<li><strong>Liquidsoap</strong> (Airtime liquidsoap service): <code>service airtime-liquidsoap restart</code>.</li>
+</ul>
+<p>Después de estos pequeños ajustes si refrescamos la página con el resumen de la instalación ya está todo correcto.</p>
+<p>Ahora ya se puede acceder al interface de administración Web <a href="http://localhost">http://localhost</a>.</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/05.png" /></p>
 <p>Ahora ya puedo acceder desde mi maquina anfitrión a LibreTime en <a href="http://192.168.221.103/">http://192.168.221.103/</a> (usuario: admin, clave: admin).</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/06.png" /></p>
-<h1 id="administracion-basica-libretime-y-debian">Administración básica LibreTime y Debian</h1>
+<h1 id="administracion-basica-de-las-aplicaciones">ADMINISTRACIÓN BÁSICA DE LAS APLICACIONES</h1>
+<h2 id="debian">Debian</h2>
+<p>Para averiguar los puertos que tenemos abiertos usamos el comando <code>ss</code>:</p>
+<pre><code># ss -lntu
+</code></pre>
+
+<p>Servicios o demonios:</p>
+<h2 id="servidor-apache">Servidor Apache</h2>
+<p>El fichero <code>/etc/apache2/sites-available/airtime.conf</code> contiene la configuración de la Web en PHP de Libretime.</p>
+<p>Reiniciar el servicio Apache (o <code>start</code>|<code>stop</code>|<code>status</code>.. en vez de <code>reload</code>) :</p>
+<pre><code># /etc/init.d/apache2 reload
+</code></pre>
+
+<p>Si se produce un error del comando <code>RewriteEngine</code> de Apache probablemente no este el módulo <code>rewrite</code> activado, usamos:</p>
+<pre><code># a2enmod rewrite
+</code></pre>
+
+<p>Y volvemos a probar a arrancar el servicio de Apache. </p>
+<h2 id="web-en-php">Web en PHP</h2>
+<p>Los ficheros de la Web de administración de Airtime se encuentran normalmente en <code>/usr/share/airtime/php/</code>.</p>
+<h1 id="administracion-remota-del-servidor">ADMINISTRACIÓN REMOTA DEL SERVIDOR</h1>
+<h2 id="vnc">VNC</h2>
 <p>Para poder administrar remotamente el servidor Debian con LibreTime desde cualquier sitio y tener acceso completo a la máquina en modo gráfico lo mejor es instalar un servidor VNC</p>
 <pre><code># apt install tightvncserver
 </code></pre>
@@ -223,6 +290,14 @@ deb-src  http://deb.debian.org/debian  stretch main
 <p>Si queremos saber que IP tiene nuestra máquina virtual (especialmente si estamos en casa y nuestro router asigna IPs dinámicas usando DHCP) escribimos <code># ip addr show</code>.</p>
 <p>Otros comandos del servidor VNC:</p>
 <p>service vncserver status</p>
+<h2 id="ssh-secure-shell">SSH - Secure Shell</h2>
+<pre><code># apt-get install openssh-server
+</code></pre>
+
+<p>Ver más en <a href="https://wiki.debian.org/es/SSH">es/SSH - Debian Wiki</a>. Como cliente si usamos MS Win podemos usar <a href="http://www.putty.org/">Putty</a> (usuario: osboxes, clave: osboxes.org). </p>
+<h1 id="recursos-y-ayuda">RECURSOS Y AYUDA</h1>
+<p>El  <a href="https://github.com/LibreTime/libretime">repositorio GitHub de LibreTime</a> puede ser un sitio excelente para comenzar sobre todo si tenemos problemas con la instalación. Podemos crear un tema en la <a href="https://github.com/LibreTime/libretime/issues">pestaña "Issues"</a>.</p>
+<p>También es recomendable siempre revisar la ]documentación oficial](http://libretime.org/). </p>
 <h1 id="enlaces-externos">Enlaces externos</h1>
 <ul>
 <li>Web principal con documentación <a href="http://libretime.org/">http://libretime.org/</a>.</li>
@@ -244,7 +319,7 @@ deb-src  http://deb.debian.org/debian  stretch main
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../../recursos/" class="btn btn-neutral float-right" title="Recursos">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../libretime/" class="btn btn-neutral float-right" title="LibreTime">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../../material/" class="btn btn-neutral" title="Material"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -278,7 +353,7 @@ deb-src  http://deb.debian.org/debian  stretch main
         <span><a href="../../material/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../../recursos/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../libretime/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
