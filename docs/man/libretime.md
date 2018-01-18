@@ -2,7 +2,6 @@ Empezamos este manual partiendo de la instalación limpia realizada en [LibreTim
 
 ![](../img/libretime/01.png)
 
-
 # Configuración básica inicial
 
 Realizamos algunos cambios básicos en 'Settings' (en la barra lateral vertical izquierda en la parte inferior opción de configuración)
