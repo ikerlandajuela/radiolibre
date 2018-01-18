@@ -7,5 +7,6 @@ pages:
     - Material: material.md
     - Manuales: 
         - 'LibreTime y VirtualBox': 'man/libretime_y_virtualbox.md'
+        - 'LibreTime': 'man/libretime.md'
     - Recursos: recursos.md
 theme: readthedocs

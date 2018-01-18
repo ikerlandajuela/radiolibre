@@ -2,7 +2,7 @@ Este manual tiene como propósito dar algunas indicaciones generales para montar
 
 Para poder seguir el manual se requiere algún nivel técnico ya que en muchos casos no entra al detalle de temas como Debian o Linux (o asistir al taller presencial). 
 
-# Creando la láquina virtual 
+# CREANDO LA MÁQUINA VIRTUAL  
 
 Virtualización técnica mediante la cual, utilizando un software determinado (QEMU, VirtualBox, Hyper-V, VMWare...), podemos crear un hardware "virtual", que a grandes rasgos funciona como un ordenador independiente, en el que instalar otro sistema operativo en él, por encima de nuestro sistema principal, y utilizarlo como si se tratase de un sistema operativo independiente y con la seguridad de que nada de lo que hagamos perjudicará al sistema real. 
 
@@ -33,7 +33,7 @@ Ya estamos preparados para arrancar nuestra máquina virtual con Debian.
 
 ![](../img/libretime_y_virtualbox/01.png)
 
-# Algunos pasos previos en Debian  
+# PASOS PREVIOS EN DEBIAN 
 
 He abierto un terminal de comandos y me he logeado como administrador con `su` (solicita contraseña "osboxes.org")
 
@@ -79,7 +79,7 @@ Ahora ya puedo instalar Git:
 # apt-get install git
 ```
 
-# Instalar LibreTime
+# INSTALAR LIBRETIME 
 
 Ahora voy a clonar el repositorio [LibreTime en GitHub](https://github.com/libretime/libretime.git).
 
@@ -97,17 +97,49 @@ Durante la instalación configura:
 * IceCast
 * PHP
 * PostreSQL
-* RabbitMQ 
+* [RabbitMQ](https://www.rabbitmq.com/). 
 
 y el resto de paquetes necesarios.
 
-Por el momento una vez finalizada la instalación sólo puedo a [Icecast](http://icecast.org/) en [http://localhost:8000](http://localhost:8000) y a página de instalación de Airtime en [http://localhost](http://localhost), he dejado todos los parámetros como estaban (con "airtime") y he seleccionado continuar.
+Por el momento una vez finalizada la instalación sólo puedo a [Icecast](http://icecast.org/) en [http://localhost:8000](http://localhost:8000) y a **página de instalación de LibreTime** en [http://localhost](http://localhost), he dejado todos los parámetros como estaban (con "airtime") y he seleccionado continuar.
+
+**Paso 1 de 5**: Instalación de la base de datos. Username, clave y nombre 'airtime' y la máquina o host local 'localhost'. 
+
+![](../img/libretime_y_virtualbox/16.png)
+
+**Paso 2 de 5**: Configuración del broker de mensajería [RabbitMQ](https://www.rabbitmq.com/). Dejamos como está también como en el paso 1.
 
 ![](../img/libretime_y_virtualbox/03.png)
 
+**Paso 3 de 5**: Configuración general.
+
 ![](../img/libretime_y_virtualbox/04.png)
 
-Con algunos errores pero se ha instalado y se puede abrir en [http://localhost](http://localhost).
+**Paso 4 de 5**: Configuración de ruta alojamiento multimedia, dejamos como está (debería crear la ruta `/srv/airtime/stor/` automáticamente). 
+
+![](../img/libretime_y_virtualbox/17.png)
+
+**Paso 5 de 5**. Servicios (demonios en Linux). 
+
+![](../img/libretime_y_virtualbox/18.png)
+
+
+Para volver a iniciar el instalador Web sólo debemos borrar el fichero `/etc/airtime/airtime.conf`.
+
+
+Cuando acaba la instalación muestra un resumen.
+
+![](../img/libretime_y_virtualbox/19.png)
+
+**Advertencia** errores:
+
+* **Airtime Analyzer** no está arrancado como servicio, seguimos instrucciones ejecutando `service airtime_analyzer start` (luego comprobamos que está arrancado con `status`.
+* **Pypo** (Airtime playout service): Reiniciamos demonio `service airtime-playout restart`.
+* **Liquidsoap** (Airtime liquidsoap service): `service airtime-liquidsoap restart`.
+
+Después de estos pequeños ajustes si refrescamos la página con el resumen de la instalación ya está todo correcto.
+
+Ahora ya se puede acceder al interface de administración Web [http://localhost](http://localhost).
 
 ![](../img/libretime_y_virtualbox/05.png)
 
@@ -115,7 +147,47 @@ Ahora ya puedo acceder desde mi maquina anfitrión a LibreTime en [http://192.16
 
 ![](../img/libretime_y_virtualbox/06.png)
 
-# Administración básica LibreTime y Debian
+# ADMINISTRACIÓN BÁSICA DE LAS APLICACIONES 
+
+## Debian
+
+Para averiguar los puertos que tenemos abiertos usamos el comando `ss`:
+
+```
+# ss -lntu
+```
+
+Servicios o demonios:
+
+
+
+## Servidor Apache 
+
+El fichero `/etc/apache2/sites-available/airtime.conf` contiene la configuración de la Web en PHP de Libretime.
+
+Reiniciar el servicio Apache (o `start`|`stop`|`status`.. en vez de `reload`) :
+
+```
+# /etc/init.d/apache2 reload
+```
+
+Si se produce un error del comando `RewriteEngine` de Apache probablemente no este el módulo `rewrite` activado, usamos:
+
+```
+# a2enmod rewrite
+``` 
+
+Y volvemos a probar a arrancar el servicio de Apache. 
+
+## Web en PHP
+
+Los ficheros de la Web de administración de Airtime se encuentran normalmente en `/usr/share/airtime/php/`.
+
+
+
+# ADMINISTRACIÓN REMOTA DEL SERVIDOR
+
+## VNC
 
 Para poder administrar remotamente el servidor Debian con LibreTime desde cualquier sitio y tener acceso completo a la máquina en modo gráfico lo mejor es instalar un servidor VNC
 
@@ -139,6 +211,21 @@ Otros comandos del servidor VNC:
 
 service vncserver status
 
+## SSH - Secure Shell
+
+```
+# apt-get install openssh-server
+```
+
+Ver más en [es/SSH - Debian Wiki](https://wiki.debian.org/es/SSH). Como cliente si usamos MS Win podemos usar [Putty](http://www.putty.org/) (usuario: osboxes, clave: osboxes.org). 
+
+
+
+# RECURSOS Y AYUDA
+
+El 	[repositorio GitHub de LibreTime](https://github.com/LibreTime/libretime) puede ser un sitio excelente para comenzar sobre todo si tenemos problemas con la instalación. Podemos crear un tema en la [pestaña "Issues"](https://github.com/LibreTime/libretime/issues).
+
+También es recomendable siempre revisar la ]documentación oficial](http://libretime.org/). 
 
 
 # Enlaces externos
