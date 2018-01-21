@@ -2,6 +2,8 @@ Este manual tiene como propósito dar algunas indicaciones generales para montar
 
 Para poder seguir el manual se requiere algún nivel técnico ya que en muchos casos no entra al detalle de temas como Debian o Linux (o asistir al taller presencial). 
 
+**[Descarga LibreTime_20180121a.ova](https://drive.google.com/file/d/1Na64Gc7TegRzzI5d4_XtuQqt_-ypzNgu/view?usp=sharing)** para VirtualBox ([LibreTime_20180121a.md5](https://drive.google.com/file/d/1mt1YEJIrzty1UUxrNmDTf0aAJq49CkGf/view?usp=sharing)).
+
 # CREANDO LA MÁQUINA VIRTUAL  
 
 Virtualización técnica mediante la cual, utilizando un software determinado (QEMU, VirtualBox, Hyper-V, VMWare...), podemos crear un hardware "virtual", que a grandes rasgos funciona como un ordenador independiente, en el que instalar otro sistema operativo en él, por encima de nuestro sistema principal, y utilizarlo como si se tratase de un sistema operativo independiente y con la seguridad de que nada de lo que hagamos perjudicará al sistema real. 
