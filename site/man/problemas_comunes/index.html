@@ -144,6 +144,22 @@
             <div class="section">
               
                 <h1 id="no-importa-archivos-mp3">No importa archivos mp3</h1>
+<p>Por alguna razón la máquina virtual reconoce los formatos de audio mp3 y <a href="https://es.wikipedia.org/wiki/Ogg">ogg</a> y sin embargo en el servidor montando en la computadora sólo permite importar archivos ogg. La versión de LibreTime está bajada de GitHub sin embargo Debian 9 se ha instalado de diferentes formas (para la máquina virtual se ha descargado una imagen creada de osboxes.org y para la computadora se ha partido de una imagen ISO bajada del repositorio oficial.</p>
+<p><img alt="" src="../../img/problemas_comunes/01.png" /></p>
+<p>Es probable que el problema resida en los codecs mp3 que no son reconocidos pero he probado y puedo reproducir una muestra mp3 en el servidor usando VLC. Analizando los logs se aprecia el error, parece que el responsable es el comando <code>liquidsoap</code>.</p>
+<p><img alt="" src="../../img/problemas_comunes/02.png" /></p>
+<p>Obtener versión de liquidsoap <code># liquidsoap --version</code> es v.1.1.1.</p>
+<p>Los archivos mp3 realmente son almacenados en una ruta intermedia <code>/srv/airtime/stor/organize/</code> pero por alguna razón luego no se mueven al destino final donde los almacena en <code>/srv/airtime/stor/imported/</code> (los ogg si).</p>
+<p>En algunos foros recomiendan que pruebes el archivo desde línea de comandos:</p>
+<pre><code># liquidsoap --verbose --debug -c 'output.dummy(audio_to_stereo(single(&quot;/srv/airtime/stor/organize/txai.mp3&quot;)))'
+</code></pre>
+
+<p>Produce en mi caso un error de segmentación, parece que en Debian 9 esa versión de liquidsoap falla en la importación de mp3..</p>
+<p><img alt="" src="../../img/problemas_comunes/03.png" /></p>
+<p>Enlaces:</p>
+<ul>
+<li>GitHub LibreTime issues: <a href="https://github.com/LibreTime/libretime/issues/352">Upload of mp3 and ogg files fail on debian jessie #352</a> <a href="https://github.com/LibreTime/libretime/issues/380">Airtime Analyzer mp3 import fails on some Debian installs #380</a> <a href="https://github.com/LibreTime/libretime/issues/192">Problem: We want to upgrade to Liquidsoap 1.3.0 #192</a>.</li>
+</ul>
 <h1 id="ventana-emergente">Ventana emergente</h1>
               
             </div>
