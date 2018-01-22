@@ -25,5 +25,7 @@ Produce en mi caso un error de segmentación, parece que en Debian 9 esa versió
 Enlaces:
 
 * GitHub LibreTime issues: [Upload of mp3 and ogg files fail on debian jessie #352](https://github.com/LibreTime/libretime/issues/352) [Airtime Analyzer mp3 import fails on some Debian installs #380](https://github.com/LibreTime/libretime/issues/380) [Problem: We want to upgrade to Liquidsoap 1.3.0 #192](https://github.com/LibreTime/libretime/issues/192).
+* [http://liquidsoap.info/doc-dev/build.html](http://liquidsoap.info/doc-dev/build.html).
+* [https://gist.github.com/dtcooper/a1a9d6b1b96a01191514cfbb425e5f35](https://gist.github.com/dtcooper/a1a9d6b1b96a01191514cfbb425e5f35).
 
 # Ventana emergente 
