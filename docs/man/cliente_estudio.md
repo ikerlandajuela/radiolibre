@@ -25,7 +25,9 @@ Volvemos a la pantalla principal y pulsamos el botón rojo de grabación, cuando
 
 Bueno ya que tenemos el fichero porque no lo subimos a LibreTime y lo programamos como un 'show'.
 
+![](../img/cliente_estudio/03.png)
 
+Ahora sólo nos resta crear el programa siguiendo los manuales de [LibreTime](libretime.md).
 
 # ENLACES EXTERNOS
 

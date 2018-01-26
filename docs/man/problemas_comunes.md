@@ -1,3 +1,15 @@
+# La importación se queda eternamente en ese estado
+
+El log `/var/log/airtime/airtime_analyzer.log` muestra el siguiente error.
+
+![](../img/problemas_comunes/04.png)
+
+Mi máquina ha cambiado de IP y por eso no puede conectar.
+
+En `/etc/airtime/airtime.conf` la URL base parece que apunta a la IP antigua '192.168.221.110', su lugar vamos a poner la nueva '192.168.221.104' y reiniciamos la máquina.
+
+Despues de realizar este cambio funciona perfectamente.
+
 # No importa archivos mp3
 
 Por alguna razón la máquina virtual reconoce los formatos de audio mp3 y [ogg](https://es.wikipedia.org/wiki/Ogg) y sin embargo en el servidor montando en la computadora sólo permite importar archivos ogg. La versión de LibreTime está bajada de GitHub sin embargo Debian 9 se ha instalado de diferentes formas (para la máquina virtual se ha descargado una imagen creada de osboxes.org y para la computadora se ha partido de una imagen ISO bajada del repositorio oficial.

@@ -152,6 +152,27 @@ Ahora ya puedo acceder desde mi maquina anfitrión a LibreTime en [http://192.16
 
 # ADMINISTRACIÓN BÁSICA DE LAS APLICACIONES 
 
+## Liquidsoap
+
+
+Configuración `/etc/airtime/liquidsoap.cfg`.
+
+```
+# ps -aux | grep 'liquidsoap'
+```
+
+## Icecast
+
+
+
+## Pypo 
+
+```
+# cat /var/log/airtime/pypo/notify.log
+# cat /var/log/airtime/pypo-liquidsoap/ls_script.log
+```
+
+
 ## Debian
 
 Para averiguar los puertos que tenemos abiertos usamos el comando `ss`:
@@ -195,6 +216,9 @@ Los archivos importados en `/srv/airtime/stor/import/`.
 ## Airtime Analyzer
 
 Logs en `/var/log/airtime/airtime_analyzer.log` 
+
+
+Configuración `/etc/airtime/airtime.conf`.
 
 # ADMINISTRACIÓN REMOTA DEL SERVIDOR
 
