@@ -88,6 +88,9 @@
     <a class="current" href="./">Problemas comunes</a>
     <ul class="subnav">
             
+    <li class="toctree-l3"><a href="#la-importacion-se-queda-eternamente-en-ese-estado">La importación se queda eternamente en ese estado</a></li>
+    
+
     <li class="toctree-l3"><a href="#no-importa-archivos-mp3">No importa archivos mp3</a></li>
     
 
@@ -153,7 +156,13 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="no-importa-archivos-mp3">No importa archivos mp3</h1>
+                <h1 id="la-importacion-se-queda-eternamente-en-ese-estado">La importación se queda eternamente en ese estado</h1>
+<p>El log <code>/var/log/airtime/airtime_analyzer.log</code> muestra el siguiente error.</p>
+<p><img alt="" src="../../img/problemas_comunes/04.png" /></p>
+<p>Mi máquina ha cambiado de IP y por eso no puede conectar.</p>
+<p>En <code>/etc/airtime/airtime.conf</code> la URL base parece que apunta a la IP antigua '192.168.221.110', su lugar vamos a poner la nueva '192.168.221.104' y reiniciamos la máquina.</p>
+<p>Despues de realizar este cambio funciona perfectamente.</p>
+<h1 id="no-importa-archivos-mp3">No importa archivos mp3</h1>
 <p>Por alguna razón la máquina virtual reconoce los formatos de audio mp3 y <a href="https://es.wikipedia.org/wiki/Ogg">ogg</a> y sin embargo en el servidor montando en la computadora sólo permite importar archivos ogg. La versión de LibreTime está bajada de GitHub sin embargo Debian 9 se ha instalado de diferentes formas (para la máquina virtual se ha descargado una imagen creada de osboxes.org y para la computadora se ha partido de una imagen ISO bajada del repositorio oficial.</p>
 <p><img alt="" src="../../img/problemas_comunes/01.png" /></p>
 <p>Es probable que el problema resida en los codecs mp3 que no son reconocidos pero he probado y puedo reproducir una muestra mp3 en el servidor usando VLC. Analizando los logs se aprecia el error, parece que el responsable es el comando <code>liquidsoap</code>.</p>

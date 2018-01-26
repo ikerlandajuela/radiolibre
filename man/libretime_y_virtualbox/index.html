@@ -89,6 +89,12 @@
     
         <ul>
         
+            <li><a class="toctree-l4" href="#liquidsoap">Liquidsoap</a></li>
+        
+            <li><a class="toctree-l4" href="#icecast">Icecast</a></li>
+        
+            <li><a class="toctree-l4" href="#pypo">Pypo</a></li>
+        
             <li><a class="toctree-l4" href="#debian">Debian</a></li>
         
             <li><a class="toctree-l4" href="#servidor-apache">Servidor Apache</a></li>
@@ -278,6 +284,17 @@ deb-src  http://deb.debian.org/debian  stretch main
 <p>Ahora ya puedo acceder desde mi maquina anfitrión a LibreTime en <a href="http://192.168.221.103/">http://192.168.221.103/</a> (usuario: admin, clave: admin).</p>
 <p><img alt="" src="../../img/libretime_y_virtualbox/06.png" /></p>
 <h1 id="administracion-basica-de-las-aplicaciones">ADMINISTRACIÓN BÁSICA DE LAS APLICACIONES</h1>
+<h2 id="liquidsoap">Liquidsoap</h2>
+<p>Configuración <code>/etc/airtime/liquidsoap.cfg</code>.</p>
+<pre><code># ps -aux | grep 'liquidsoap'
+</code></pre>
+
+<h2 id="icecast">Icecast</h2>
+<h2 id="pypo">Pypo</h2>
+<pre><code># cat /var/log/airtime/pypo/notify.log
+# cat /var/log/airtime/pypo-liquidsoap/ls_script.log
+</code></pre>
+
 <h2 id="debian">Debian</h2>
 <p>Para averiguar los puertos que tenemos abiertos usamos el comando <code>ss</code>:</p>
 <pre><code># ss -lntu
@@ -303,6 +320,7 @@ deb-src  http://deb.debian.org/debian  stretch main
 <p>Los archivos importados en <code>/srv/airtime/stor/import/</code>.</p>
 <h2 id="airtime-analyzer">Airtime Analyzer</h2>
 <p>Logs en <code>/var/log/airtime/airtime_analyzer.log</code> </p>
+<p>Configuración <code>/etc/airtime/airtime.conf</code>.</p>
 <h1 id="administracion-remota-del-servidor">ADMINISTRACIÓN REMOTA DEL SERVIDOR</h1>
 <h2 id="vnc">VNC</h2>
 <p>Para poder administrar remotamente el servidor Debian con LibreTime desde cualquier sitio y tener acceso completo a la máquina en modo gráfico lo mejor es instalar un servidor VNC</p>
