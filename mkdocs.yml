@@ -11,4 +11,6 @@ pages:
         - 'Estudio colaboradores': 'man/cliente_estudio.md'
         - 'Problemas comunes': 'man/problemas_comunes.md'
     - Recursos: recursos.md
+    - Descargas: descargas.md
+    - Autor y licencia: autor_licencia.md
 theme: readthedocs
