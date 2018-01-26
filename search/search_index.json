@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Presentaci\u00f3n\n\n\nBienvenido a la \nWeb creada para el taller que vamos a impartir sobre como hacer una radio libre comunitaria en Internet usando tecnolog\u00edas libres\n como \nLibretime\n. El taller abarcara durante dos d\u00edas desde el montaje del sistema a la pogramaci\u00f3n y difusi\u00f3n de contenidos. \nNuestra intenci\u00f3n es ir creando todo el material y manuales necesarios para cuando llegue el d\u00eda del taller todos los recursos esten preparados y libremente disponibles para los asistentes o quien quiera.\n\n\nInformaci\u00f3n\n\n\n\n\nFechas\n: El taller consta de dos sesiones. \n\n\n27 de Enero S\u00e1bado a las 17:00 horas.\n\n\n28 de Enero Domingo a las 11:00 horas.\n\n\n\n\n\n\nLugar\n: Kultur Etxea de Bilbao La Vieja (C/ Urazurrutia 7), Bilbao (\nver mapa\n).\n\n\nOrganizadores\n: Kultur Etxea, \n97 Irratia\n.\n\n\nCorreo electr\u00f3nico de contacto: \n.\n\n\nEvento en Facebook\n.\n\n\nGrupo de correo electr\u00f3nico con invitaci\u00f3n previa \n.\n\n\n\n\nInscripci\u00f3n al taller\n\n\nNormalmente trabajamos con grupos peque\u00f1os de no m\u00e1s de 8 o 10 personas. Para que nadie que realmente quiera acudir al taller se quede sin plaza pedimos que os registreis en el formulario del enlace. Despues de inscribirte debe esperar a recibir la confirmaci\u00f3n de plaza v\u00eda correo electr\u00f3nico.\n\n\nENLACE A FORMULARIO DE INSCRIPCI\u00d3N\n\n\nSi por cualquier motivo a pesar de haberte inscrito ves que no puedes asistir por favor escribe un correo electr\u00f3nico a \n.\n\n\nCartel", 
+            "text": "Presentaci\u00f3n\n\n\nBienvenido a la \nWeb creada para el taller que vamos a impartir sobre como hacer una radio libre comunitaria en Internet usando tecnolog\u00edas libres\n como \nLibretime\n. El taller abarcara durante dos d\u00edas desde el montaje del sistema a la pogramaci\u00f3n y difusi\u00f3n de contenidos. \nNuestra intenci\u00f3n es ir creando todo el material y manuales necesarios para cuando llegue el d\u00eda del taller todos los recursos esten preparados y libremente disponibles para los asistentes o quien quiera.\n\n\nEsta Web est\u00e1 clonada del \nrepositorio\n de su \nautor original (licencia GNU GPL)\n.\n\n\nInformaci\u00f3n\n\n\n\n\nFechas\n: El taller consta de dos sesiones. \n\n\n27 de Enero S\u00e1bado a las 17:00 horas.\n\n\n28 de Enero Domingo a las 11:00 horas.\n\n\n\n\n\n\nLugar\n: Kultur Etxea de Bilbao La Vieja (C/ Urazurrutia 7), Bilbao (\nver mapa\n).\n\n\nOrganizadores\n: Kultur Etxea, \n97 Irratia\n.\n\n\nCorreo electr\u00f3nico de contacto: \n.\n\n\nEvento en Facebook\n.\n\n\nGrupo de correo electr\u00f3nico con invitaci\u00f3n previa \n.\n\n\n\n\nInscripci\u00f3n al taller\n\n\nNormalmente trabajamos con grupos peque\u00f1os de no m\u00e1s de 8 o 10 personas. Para que nadie que realmente quiera acudir al taller se quede sin plaza pedimos que os registreis en el formulario del enlace. Despues de inscribirte debe esperar a recibir la confirmaci\u00f3n de plaza v\u00eda correo electr\u00f3nico.\n\n\nENLACE A FORMULARIO DE INSCRIPCI\u00d3N\n\n\nSi por cualquier motivo a pesar de haberte inscrito ves que no puedes asistir por favor escribe un correo electr\u00f3nico a \n.\n\n\nCartel", 
             "title": "Inicio"
         }, 
         {
             "location": "/#presentacion", 
-            "text": "Bienvenido a la  Web creada para el taller que vamos a impartir sobre como hacer una radio libre comunitaria en Internet usando tecnolog\u00edas libres  como  Libretime . El taller abarcara durante dos d\u00edas desde el montaje del sistema a la pogramaci\u00f3n y difusi\u00f3n de contenidos. \nNuestra intenci\u00f3n es ir creando todo el material y manuales necesarios para cuando llegue el d\u00eda del taller todos los recursos esten preparados y libremente disponibles para los asistentes o quien quiera.", 
+            "text": "Bienvenido a la  Web creada para el taller que vamos a impartir sobre como hacer una radio libre comunitaria en Internet usando tecnolog\u00edas libres  como  Libretime . El taller abarcara durante dos d\u00edas desde el montaje del sistema a la pogramaci\u00f3n y difusi\u00f3n de contenidos. \nNuestra intenci\u00f3n es ir creando todo el material y manuales necesarios para cuando llegue el d\u00eda del taller todos los recursos esten preparados y libremente disponibles para los asistentes o quien quiera.  Esta Web est\u00e1 clonada del  repositorio  de su  autor original (licencia GNU GPL) .", 
             "title": "Presentaci\u00f3n"
         }, 
         {
@@ -152,23 +152,28 @@
         }, 
         {
             "location": "/man/cliente_estudio/", 
-            "text": "En este apartado vamos a mencionar las aplicaciones necesarias para la red de colaboradores de la comunidad que quieran publicar en el servidor.\n\n\nAudacity\n\n\nButt (broadcast using this tool)\n\n\n\n\nAplicaci\u00f3n multiplataforma (Win,Mac,Linux) de streaming. Soporta servidores de streaming \nIcecast\n y \nSHOUTcast\n. \n\n\nButt se usa para transmitir audio en streaming desde la entrada de sonido del PC o un micro conectado a un servidor como LibreTime en este caso.\n\n\nDescarga\n para MS Win de la Web oficial: \nWindows Setup (.exe)\n.\n\n\nEl proceso de instalaci\u00f3n en Win es muy sencillo, cuando acaba ejecutamos la aplicaci\u00f3n. En las opciones de configuraci\u00f3n ('Settings') podemos definir el servidor de destino.\n\n\nEnlaces externos\n\n\n\n\nSetting up BUTT with Airtime \u2013 Sourcefabric Help Center\n.\n\n\nhttp://libretime.org/manual/icecast-handover/\n.", 
+            "text": "En este apartado vamos a mencionar las aplicaciones necesarias para la red de colaboradores de la comunidad que quieran publicar en el servidor.\n\n\nAUDACITY\n\n\nBUTT (broadcast using this tool)\n\n\n\n\nAplicaci\u00f3n multiplataforma (Win,Mac,Linux) de streaming. Soporta servidores de streaming \nIcecast\n y \nSHOUTcast\n. \n\n\nButt se usa para transmitir audio en streaming desde la entrada de sonido del PC o un micro conectado a un servidor como LibreTime en este caso.\n\n\nDescarga\n para MS Win de la Web oficial: \nWindows Setup (.exe)\n.\n\n\nEl proceso de instalaci\u00f3n en Win es muy sencillo, cuando acaba ejecutamos la aplicaci\u00f3n. En las opciones de configuraci\u00f3n ('Settings') podemos definir el servidor de destino.\n\n\nGrabar una muestra de audio con Butt\n\n\nModificamos la configuraci\u00f3n para que guarde la muestra de audio en formato \nOGG\n, en mi caso como estoy probando un micro externo tambi\u00e9n he tocado el primer desplegable, del resto de pesta\u00f1as no he tocado nada m\u00e1s creo, cuando finalizemos la configuraci\u00f3n es importante acordarse de salvar los cambios con el bot\u00f3n \"Save\". \n\n\n\n\nVolvemos a la pantalla principal y pulsamos el bot\u00f3n rojo de grabaci\u00f3n, cuando paremos la grabaci\u00f3n nos ofrece la opci\u00f3n de guardar el audio en un fichero con la fecha y hora (en mi caso 'rec_20180126-133101.ogg' de unos 30 segundos de 'ISEO \n DODOSOUND - Roots in the Air'). \n\n\nBueno ya que tenemos el fichero porque no lo subimos a LibreTime y lo programamos como un 'show'.\n\n\nENLACES EXTERNOS\n\n\n\n\nSetting up BUTT with Airtime \u2013 Sourcefabric Help Center\n.\n\n\nhttp://libretime.org/manual/icecast-handover/\n.", 
             "title": "Estudio colaboradores"
         }, 
         {
             "location": "/man/cliente_estudio/#audacity", 
             "text": "", 
-            "title": "Audacity"
+            "title": "AUDACITY"
         }, 
         {
             "location": "/man/cliente_estudio/#butt-broadcast-using-this-tool", 
             "text": "Aplicaci\u00f3n multiplataforma (Win,Mac,Linux) de streaming. Soporta servidores de streaming  Icecast  y  SHOUTcast .   Butt se usa para transmitir audio en streaming desde la entrada de sonido del PC o un micro conectado a un servidor como LibreTime en este caso.  Descarga  para MS Win de la Web oficial:  Windows Setup (.exe) .  El proceso de instalaci\u00f3n en Win es muy sencillo, cuando acaba ejecutamos la aplicaci\u00f3n. En las opciones de configuraci\u00f3n ('Settings') podemos definir el servidor de destino.", 
-            "title": "Butt (broadcast using this tool)"
+            "title": "BUTT (broadcast using this tool)"
+        }, 
+        {
+            "location": "/man/cliente_estudio/#grabar-una-muestra-de-audio-con-butt", 
+            "text": "Modificamos la configuraci\u00f3n para que guarde la muestra de audio en formato  OGG , en mi caso como estoy probando un micro externo tambi\u00e9n he tocado el primer desplegable, del resto de pesta\u00f1as no he tocado nada m\u00e1s creo, cuando finalizemos la configuraci\u00f3n es importante acordarse de salvar los cambios con el bot\u00f3n \"Save\".    Volvemos a la pantalla principal y pulsamos el bot\u00f3n rojo de grabaci\u00f3n, cuando paremos la grabaci\u00f3n nos ofrece la opci\u00f3n de guardar el audio en un fichero con la fecha y hora (en mi caso 'rec_20180126-133101.ogg' de unos 30 segundos de 'ISEO   DODOSOUND - Roots in the Air').   Bueno ya que tenemos el fichero porque no lo subimos a LibreTime y lo programamos como un 'show'.", 
+            "title": "Grabar una muestra de audio con Butt"
         }, 
         {
             "location": "/man/cliente_estudio/#enlaces-externos", 
             "text": "Setting up BUTT with Airtime \u2013 Sourcefabric Help Center .  http://libretime.org/manual/icecast-handover/ .", 
-            "title": "Enlaces externos"
+            "title": "ENLACES EXTERNOS"
         }, 
         {
             "location": "/man/problemas_comunes/", 
@@ -209,6 +214,46 @@
             "location": "/recursos/#manual-manejo-de-airtime", 
             "text": "Manejo_de_Airtime.pdf", 
             "title": "Manual manejo de Airtime"
+        }, 
+        {
+            "location": "/descargas/", 
+            "text": "Debian 9\n\n\n\n\n\n\ndebian-9.3.0-i386-xfce-CD-1.iso\n\n647 MB (678.428.672 bytes): Sistema operativo GNU/Linux Debian con escritorio \nXfce\n (m\u00e1s ligero ideal para maquinas viejunas) para 'quemar' un CD y instalar servidor f\u00edsico, usado para montar la torre de sobremesa con LibreTime (fichero comprobaci\u00f3n \nMD5SUM\n).\n\n\n\n\nVirtualBox\n\n\n\n\n\n\n\n\nVirtualBox-5.2.4-119785-Win.exe\n: Instalador aplicaci\u00f3n Virtual Box para Windows aunque lo mejor es acudir a la Web oficial en la secci\u00f3n \ndescargas\n para descargar la \u00faltima versi\u00f3n disponible. \n\n\n\n\n\n\nImagen para VBox \nDebian_9.1.0-VB-32bit.7z\n \n1 GB (1.099.634.510 bytes) comprimida con \n7-Zip\n, nosotros la hemos usado para montar una m\u00e1quina virtual en un equipo con Win 7 para hacer las primeras pruebas.\n\n\n\n\n\n\nM\u00e1quina virtual Debian 9 con LibreTime ya instalado \nLibreTime_20180121a.ova\n, a medida que hagamos cambios y mejoras iremos subiendo nuevas versiones. Usuario 'osboxes.org' y clave 'osboxes.or' del SO Debian). \n3 GB (3.468.621.312 bytes) \nLibreTime_20180121a.md5\n.\n\n\n\n\n\n\nHerramientas administraci\u00f3n\n\n\n\n\nPuTTY\n: Cliente SSH para MS Win.\n\n\n\n\nHerramientas estudio\n\n\n\n\nbutt-0.1.16-setup.exe\n. \nWeb oficial\n.", 
+            "title": "Descargas"
+        }, 
+        {
+            "location": "/descargas/#debian-9", 
+            "text": "debian-9.3.0-i386-xfce-CD-1.iso \n647 MB (678.428.672 bytes): Sistema operativo GNU/Linux Debian con escritorio  Xfce  (m\u00e1s ligero ideal para maquinas viejunas) para 'quemar' un CD y instalar servidor f\u00edsico, usado para montar la torre de sobremesa con LibreTime (fichero comprobaci\u00f3n  MD5SUM ).", 
+            "title": "Debian 9"
+        }, 
+        {
+            "location": "/descargas/#virtualbox", 
+            "text": "VirtualBox-5.2.4-119785-Win.exe : Instalador aplicaci\u00f3n Virtual Box para Windows aunque lo mejor es acudir a la Web oficial en la secci\u00f3n  descargas  para descargar la \u00faltima versi\u00f3n disponible.     Imagen para VBox  Debian_9.1.0-VB-32bit.7z  \n1 GB (1.099.634.510 bytes) comprimida con  7-Zip , nosotros la hemos usado para montar una m\u00e1quina virtual en un equipo con Win 7 para hacer las primeras pruebas.    M\u00e1quina virtual Debian 9 con LibreTime ya instalado  LibreTime_20180121a.ova , a medida que hagamos cambios y mejoras iremos subiendo nuevas versiones. Usuario 'osboxes.org' y clave 'osboxes.or' del SO Debian). \n3 GB (3.468.621.312 bytes)  LibreTime_20180121a.md5 .", 
+            "title": "VirtualBox"
+        }, 
+        {
+            "location": "/descargas/#herramientas-administracion", 
+            "text": "PuTTY : Cliente SSH para MS Win.", 
+            "title": "Herramientas administraci\u00f3n"
+        }, 
+        {
+            "location": "/descargas/#herramientas-estudio", 
+            "text": "butt-0.1.16-setup.exe .  Web oficial .", 
+            "title": "Herramientas estudio"
+        }, 
+        {
+            "location": "/autor_licencia/", 
+            "text": "Autor\n\n\n\n\nTwitter \n@ikernaix\n.\n\n\nBlog\n.\n\n\n\n\nLicencia\n\n\nDistribuido bajo licencia \nGNU-GPL v3.0\n.\n\n\nLos contenidos de esta Web y los c\u00f3digos de desarrollo propio de distribuiran con licencia\n\n\n\n\nView official GNU site \nhttp://www.gnu.org/licenses/gpl.html\n.", 
+            "title": "Autor y licencia"
+        }, 
+        {
+            "location": "/autor_licencia/#autor", 
+            "text": "Twitter  @ikernaix .  Blog .", 
+            "title": "Autor"
+        }, 
+        {
+            "location": "/autor_licencia/#licencia", 
+            "text": "Distribuido bajo licencia  GNU-GPL v3.0 .  Los contenidos de esta Web y los c\u00f3digos de desarrollo propio de distribuiran con licencia   View official GNU site  http://www.gnu.org/licenses/gpl.html .", 
+            "title": "Licencia"
         }
     ]
 }

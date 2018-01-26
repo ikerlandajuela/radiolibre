@@ -8,7 +8,7 @@
   
   <meta name="author" content="Iker Landajuela">
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Material - Taller radio libre</title>
+  <title>Descargas - Taller radio libre</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -17,9 +17,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Material";
-    var mkdocs_page_input_path = "material.md";
-    var mkdocs_page_url = "/material/";
+    var mkdocs_page_name = "Descargas";
+    var mkdocs_page_input_path = "descargas.md";
+    var mkdocs_page_url = "/descargas/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -62,29 +62,9 @@
     <a class="" href="..">Inicio</a>
 	    </li>
           
-            <li class="toctree-l1 current">
+            <li class="toctree-l1">
 		
-    <a class="current" href="./">Material</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l2"><a href="#material">Material</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l3" href="#equipos-y-perifericos">Equipos y periféricos</a></li>
-        
-            <li><a class="toctree-l3" href="#aplicaciones-y-software">Aplicaciones y software</a></li>
-        
-            <li><a class="toctree-l3" href="#servidor-libretime-debian-9">Servidor LibreTime Debian 9</a></li>
-        
-            <li><a class="toctree-l3" href="#liquidsoap">Liquidsoap</a></li>
-        
-            <li><a class="toctree-l3" href="#problemas-comunes">Problemas comunes</a></li>
-        
-        </ul>
-    
-
-    </ul>
+    <a class="" href="../material/">Material</a>
 	    </li>
           
             <li class="toctree-l1">
@@ -115,9 +95,24 @@
     <a class="" href="../recursos/">Recursos</a>
 	    </li>
           
-            <li class="toctree-l1">
+            <li class="toctree-l1 current">
 		
-    <a class="" href="../descargas/">Descargas</a>
+    <a class="current" href="./">Descargas</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#debian-9">Debian 9</a></li>
+    
+
+    <li class="toctree-l2"><a href="#virtualbox">VirtualBox</a></li>
+    
+
+    <li class="toctree-l2"><a href="#herramientas-administracion">Herramientas administración</a></li>
+    
+
+    <li class="toctree-l2"><a href="#herramientas-estudio">Herramientas estudio</a></li>
+    
+
+    </ul>
 	    </li>
           
             <li class="toctree-l1">
@@ -147,10 +142,10 @@
     
       
     
-    <li>Material</li>
+    <li>Descargas</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/ikerlandajuela/radiolibre/edit/master/docs/material.md"
+        <a href="https://github.com/ikerlandajuela/radiolibre/edit/master/docs/descargas.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -160,25 +155,35 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="material">Material</h1>
-<p>Todo el material y equipos informáticos los pondremos nosotros a disposición del taller, ordenadores de sobremesa, microfonos y el resto de elementos necesarios. </p>
-<h2 id="equipos-y-perifericos">Equipos y periféricos</h2>
-<h2 id="aplicaciones-y-software">Aplicaciones y software</h2>
-<h2 id="servidor-libretime-debian-9">Servidor LibreTime Debian 9</h2>
+                <h1 id="debian-9">Debian 9</h1>
+<p><img alt="" src="https://mariadb.org/wp-content/uploads/2017/06/debian-9.png" /></p>
 <ul>
-<li>Usuario: radiolibre.</li>
-<li>Clave: radiolibre.</li>
+<li><a href="https://drive.google.com/file/d/17KdWDEzI_7iH9YApCuTiO171Vx9XltBY/view?usp=sharing">debian-9.3.0-i386-xfce-CD-1.iso</a><br />
+647 MB (678.428.672 bytes): Sistema operativo GNU/Linux Debian con escritorio <a href="https://xfce.org/">Xfce</a> (más ligero ideal para maquinas viejunas) para 'quemar' un CD y instalar servidor físico, usado para montar la torre de sobremesa con LibreTime (fichero comprobación <a href="https://drive.google.com/file/d/19YWzjq68F-37ZEg6CXBPN3GdS9TFgyc4/view?usp=sharing">MD5SUM</a>).</li>
 </ul>
-<p>En la CPU con el servidor se produce error en importación, he instalado el paquete faltante 'silan'. </p>
-<pre><code># apt-get install silan
-</code></pre>
-
-<p>A pesar de todo sigue fallando la importación (ver <code>#  cat /var/log/airtime/airtime_analyzer.log</code>).</p>
-<h2 id="liquidsoap">Liquidsoap</h2>
-<p>La configuración se encuentra en <code>/etc/airtime/liquidsoap.cfg</code> y podemos alterar sus parámetros desde la Web en 'Settings' &gt; 'Stream'.</p>
-<p>Los logs en </p>
-<h2 id="problemas-comunes">Problemas comunes</h2>
-<p>No sube archivos MP3 sólo OGG.</p>
+<h1 id="virtualbox">VirtualBox</h1>
+<p><img alt="" src="https://www.virtualbox.org/graphics/vbox_logo2_gradient.png" /></p>
+<ul>
+<li>
+<p><a href="https://drive.google.com/file/d/16Y_GR7xeVtC89CV5P5vH6QFbNQl7PklP/view?usp=sharing">VirtualBox-5.2.4-119785-Win.exe</a>: Instalador aplicación Virtual Box para Windows aunque lo mejor es acudir a la Web oficial en la sección <a href="https://www.virtualbox.org/wiki/Downloads">descargas</a> para descargar la última versión disponible. </p>
+</li>
+<li>
+<p>Imagen para VBox <a href="https://drive.google.com/file/d/1xXEW4pT09GerYObP0pr_I7k721oJ2Mva/view?usp=sharing">Debian_9.1.0-VB-32bit.7z</a> 
+1 GB (1.099.634.510 bytes) comprimida con <a href="http://www.7-zip.org/">7-Zip</a>, nosotros la hemos usado para montar una máquina virtual en un equipo con Win 7 para hacer las primeras pruebas.</p>
+</li>
+<li>
+<p>Máquina virtual Debian 9 con LibreTime ya instalado <a href="https://drive.google.com/file/d/1Na64Gc7TegRzzI5d4_XtuQqt_-ypzNgu/view?usp=sharing">LibreTime_20180121a.ova</a>, a medida que hagamos cambios y mejoras iremos subiendo nuevas versiones. Usuario 'osboxes.org' y clave 'osboxes.or' del SO Debian). 
+3 GB (3.468.621.312 bytes) <a href="https://drive.google.com/file/d/1mt1YEJIrzty1UUxrNmDTf0aAJq49CkGf/view?usp=sharing">LibreTime_20180121a.md5</a>.</p>
+</li>
+</ul>
+<h1 id="herramientas-administracion">Herramientas administración</h1>
+<ul>
+<li><a href="https://www.putty.org/">PuTTY</a>: Cliente SSH para MS Win.</li>
+</ul>
+<h1 id="herramientas-estudio">Herramientas estudio</h1>
+<ul>
+<li><a href="https://drive.google.com/file/d/1hXbs7FuSifDjfBrLMJ89yDV2d15SW_lo/view?usp=sharing">butt-0.1.16-setup.exe</a>. <a href="https://sourceforge.net/projects/butt/">Web oficial</a>.</li>
+</ul>
               
             </div>
           </div>
@@ -186,10 +191,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../man/libretime_y_virtualbox/" class="btn btn-neutral float-right" title="Servidor de radio en máquina virtual">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../autor_licencia/" class="btn btn-neutral float-right" title="Autor y licencia">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href=".." class="btn btn-neutral" title="Inicio"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../recursos/" class="btn btn-neutral" title="Recursos"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -217,10 +222,10 @@
           <a href="https://github.com/ikerlandajuela/radiolibre/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../recursos/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../man/libretime_y_virtualbox/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../autor_licencia/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

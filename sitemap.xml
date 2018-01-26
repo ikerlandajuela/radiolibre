@@ -53,4 +53,20 @@
     </url>
     
 
+    
+    <url>
+     <loc>/descargas/</loc>
+     <lastmod>2018-01-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/autor_licencia/</loc>
+     <lastmod>2018-01-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
 </urlset>
